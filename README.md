@@ -16,7 +16,6 @@ limitations under the License.
 A repository for Known Good Designs (KGDs). Does not contain any design files with NDA-sensitive information. For access to complete set of PDK files for a given design, please contact the administrator at unglaub@usc.edu.
 
 # Functions
-
 1. 6-pole Butterworth Filter
 2. ADC
 3. DAC
@@ -25,4 +24,5 @@ A repository for Known Good Designs (KGDs). Does not contain any design files wi
 6. PLL
 7. VCO
 
+# Summary of Predictive Models
 <img src="Documentation/images/Summary_of_predictive_models.png">
