@@ -20,7 +20,6 @@ To access files under NDA, please create a free GitLab account at <https://gitla
 <img src="Documentation/images/README_USC_65nm_SAR_ADC_Dec20_2018_v2_Page_1.png">
 <img src="Documentation/images/README_USC_65nm_SAR_ADC_Dec20_2018_v2_Page_2.png">
 <img src="Documentation/images/README_USC_65nm_SAR_ADC_Dec20_2018_v2_Page_3.png">
-<img src="Documentation/images/README_USC_65nm_SAR_ADC_Dec20_2018_v2_Page_4.png">
 
 # Simulation Results (December 20, 2018)
 <img src="Documentation/images/GF65_12b_SAR_ADC_Simulation_Results_Page_01.png">
