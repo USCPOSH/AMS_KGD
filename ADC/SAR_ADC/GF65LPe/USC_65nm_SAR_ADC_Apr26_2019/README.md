@@ -16,7 +16,7 @@ limitations under the License.
 To access files under NDA, please create a free GitLab account at <https://gitlab.com/> and email the maintainer (unglaub@usc.edu) 
 #with your email and GitLab username. Upon approval, you will then be given "Reporter" (read/download-only) access to the repository.
 
-# USC_65nm_SAR_ADC_Apr26_2019 README
+# README
 <img src="Documentation/images/README_USC_65nm_SAR_ADC_Apr26_2019_v3_Page_1.png">
 <img src="Documentation/images/README_USC_65nm_SAR_ADC_Apr26_2019_v3_Page_2.png">
 <img src="Documentation/images/README_USC_65nm_SAR_ADC_Apr26_2019_v3_pg_3.png" >
