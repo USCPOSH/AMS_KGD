@@ -11,3 +11,18 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+# README
+<img src="Documents/images/SAR_ADC_KGD_Page_01.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_02.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_03.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_04.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_05.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_06.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_07.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_08.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_09.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_10.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_11.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_12.png">
+<img src="Documents/images/SAR_ADC_KGD_Page_13.png">
