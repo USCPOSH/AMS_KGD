@@ -36,4 +36,3 @@ To access files under NDA, please create a free GitLab account at <https://gitla
 <img src="Documentation/images/GF65_12b_SAR_ADC_Simulation_Results_Apr26_2019_Page_12.png">
 <img src="Documentation/images/GF65_12b_SAR_ADC_Simulation_Results_Apr26_2019_Page_13.png">
 <img src="Documentation/images/GF65_12b_SAR_ADC_Simulation_Results_Apr26_2019_Page_14.png">
-
