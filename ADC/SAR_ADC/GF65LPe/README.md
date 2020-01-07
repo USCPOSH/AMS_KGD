@@ -19,3 +19,10 @@ To access files under NDA, please create a free GitLab account at <https://gitla
 # Design Releases
 1. USC_65nm_SAR_ADC_Dec20_2018
 2. USC_65nm_SAR_ADC_Apr26_2019
+
+# Simulating GF65nm SAR ADC
+<img src="Documentation/images/Simulating_GF65_SAR_ADC_Page_1.png">
+<img src="Documentation/images/Simulating_GF65_SAR_ADC_Page_2.png">
+<img src="Documentation/images/Simulating_GF65_SAR_ADC_Page_3.png">
+<img src="Documentation/images/Simulating_GF65_SAR_ADC_Page_4.png">
+<img src="Documentation/images/Simulating_GF65_SAR_ADC_Page_5.png">
