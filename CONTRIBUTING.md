@@ -6,6 +6,3 @@ To contribute Known Good Designs to this public repository, please contact Walte
 Walter Unglaub, top contributor (USC), <unglaub@usc.edu>
 
 Qiaochu Zhang (USC), <qiaochuz@usc.edu>
-
-Subhajit Dutta Chowdhury (USC), <duttacho@usc.edu>
-
