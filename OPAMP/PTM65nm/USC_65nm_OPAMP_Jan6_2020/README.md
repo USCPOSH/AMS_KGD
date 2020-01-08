@@ -12,5 +12,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-# README
+# Notes
 <img src="Documentation/images/PTM65_Jan6_2020_Notes.png">
+
+# README
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_1.png">
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_2.png">
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_3.png">
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_4.png">
