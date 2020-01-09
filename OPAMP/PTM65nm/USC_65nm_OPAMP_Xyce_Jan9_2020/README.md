@@ -19,4 +19,4 @@ There are 2 versions of the netlist:
 This netlist can be used to compute gain from V(dolout) as a post-process in gnuplot.
 
 ## test_opamp_gain.cir
-This netlist computes gain directly so it doesn’t need a post-process step
+This netlist computes gain directly so it doesn’t need a post-process step.
