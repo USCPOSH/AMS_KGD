@@ -14,5 +14,13 @@ limitations under the License.
 
 ## Xyce-compatible netlist is located under the "Xyce" folder.
 
-# README
+# Notes
 <img src="Documentation/images/PTM65_Jan6_2020_Notes.png">
+
+# README
+<img src="Documentation/images/AAFilter_in_PTM 65nm_v1_Page_1.png">
+<img src="Documentation/images/AAFilter_in_PTM 65nm_v1_Page_2.png">
+<img src="Documentation/images/AAFilter_in_PTM 65nm_v1_Page_3.png">
+<img src="Documentation/images/AAFilter_in_PTM 65nm_v1_Page_4.png">
+<img src="Documentation/images/AAFilter_in_PTM 65nm_v1_Page_5.png">
+<img src="Documentation/images/AAFilter_in_PTM 65nm_v1_Page_6.png">
