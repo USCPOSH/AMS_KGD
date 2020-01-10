@@ -23,7 +23,7 @@ This netlist computes gain directly so it doesn’t need a post-process step.
 <img src="Documentation/images/PTM65_Jan6_2020_Notes.png">
 
 # README
-<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_1.png">
-<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_2.png">
-<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_3.png">
-<img src="Documentation/images/OPAMP_in_PTM 65nm_v1_Page_4.png">
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v2_Page_1.png">
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v2_Page_2.png">
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v2_Page_3.png">
+<img src="Documentation/images/OPAMP_in_PTM 65nm_v2_Page_4.png">
