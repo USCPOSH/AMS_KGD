@@ -1,0 +1,228 @@
+** Generated for: hspiceD
+** Generated on: Jan  9 12:26:36 2020
+** Design library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Design cell name: test_aafilter_7MHz_PTM65_AllDevices
+** Design view name: schematic
+
+
+.TRAN 0 8u UIC
+
+.print tran v(fim) v(fip) v(fom) v(fop) v(fout)
+
+
+
+.options timeint newlte=3
+
+* The noise analysis line might need to be corrected
+* In Spectre the output is fout, with input V3
+*.NOISE V(fout,0) DEC 10 100Meg 100
+
+*.TEMP 25.0
+*.OPTION
+*+    ARTIST=2
+*+    INGOLD=2
+*+    PARHIER=LOCAL
+*+    PSF=2
+.INCLUDE "Library/ptmp65.lib"
+.INCLUDE "Library/ptmn65.lib"
+.INCLUDE "Library/ptm_thinox_natnfet_n65.lib"
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: aafilter_bias_PTM65_AllDevices
+** View name: schematic
+.subckt aafilter_bias_PTM65_AllDevices ib10u<1> ib10u<2> ib10u<3> ib10u_in vdda1p2
+mt3 ib10u_in ib10u_in vdda1p2 vdda1p2 ptmp65 L=2e-6 W=40e-6 AD=4e-12 AS=5.2e-12 PD=40.8e-6 PS=61.04e-6 NRD=2.5e-3 NRS=2.5e-3 M=1 ;DTEMP=0
+mt2 ib10u<3> ib10u_in vdda1p2 vdda1p2 ptmp65 L=2e-6 W=40e-6 AD=4e-12 AS=5.2e-12 PD=40.8e-6 PS=61.04e-6 NRD=2.5e-3 NRS=2.5e-3 M=1 ;DTEMP=0
+mt0 ib10u<2> ib10u_in vdda1p2 vdda1p2 ptmp65 L=2e-6 W=40e-6 AD=4e-12 AS=5.2e-12 PD=40.8e-6 PS=61.04e-6 NRD=2.5e-3 NRS=2.5e-3 M=1 ;DTEMP=0
+mt1 ib10u<1> ib10u_in vdda1p2 vdda1p2 ptmp65 L=2e-6 W=40e-6 AD=4e-12 AS=5.2e-12 PD=40.8e-6 PS=61.04e-6 NRD=2.5e-3 NRS=2.5e-3 M=1 ;DTEMP=0
+.ends aafilter_bias_PTM65_AllDevices
+** End of subcircuit definition.
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: inv_1x_PTM65_AllDevices
+** View name: schematic
+.subckt inv_1x_PTM65_AllDevices in out vp vm
+mt1 out in vp vp ptmp65 L=60e-9 W=410e-9 AD=65.6e-15 AS=65.6e-15 PD=1.14e-6 PS=1.14e-6 NRD=243.9e-3 NRS=243.9e-3 M=1 ;DTEMP=0
+mt2 out in vm vm ptmn65 L=60e-9 W=210e-9 AD=33.6e-15 AS=33.6e-15 PD=740e-9 PS=740e-9 NRD=476.2e-3 NRS=476.2e-3 M=1 ;DTEMP=0
+.ends inv_1x_PTM65_AllDevices
+** End of subcircuit definition.
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: opamp5_PTM65_AllDevices
+** View name: schematic
+.subckt opamp5_PTM65_AllDevices gnda ib10u ic im ip om op vdda1p2 on
+c0 net036 net60 1.416e-12 M=1
+c4 net69 om 378e-15
+c1 net039 net63 1.416e-12 M=1
+c5 net69 op 378e-15
+mt68 vdda1p2 vbp vdda1p2 vbb ptmp65 L=600e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt72 net0116 vbp net0116 vbb ptmp65 L=180e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt71 vdda1p2 vbp vdda1p2 vbb ptmp65 L=600e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt76 net0117 vbp net0117 vbb ptmp65 L=180e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt73<1> net0139<0> vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt73<2> net0139<1> vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt73<3> net0139<2> vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt73<4> net0139<3> vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt73<5> net0139<4> vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt73<6> net0139<5> vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt59 net0123 vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=4 ;DTEMP=0
+mt64 net0136 vbp net0123 vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=4 ;DTEMP=0
+mt63 net0135 im net0136 bbi ptmp65 L=500e-9 W=25e-6 AD=2.8e-12 AS=2.8e-12 PD=31.12e-6 PS=31.12e-6 NRD=4e-3 NRS=4e-3 M=1 ;DTEMP=0
+mt60 net0135 ip net0136 bbi ptmp65 L=500e-9 W=25e-6 AD=2.8e-12 AS=2.8e-12 PD=31.12e-6 PS=31.12e-6 NRD=4e-3 NRS=4e-3 M=1 ;DTEMP=0
+mt58 vbp on vdda1p2 vdda1p2 ptmp65 L=60e-9 W=2.5e-6 AD=400e-15 AS=400e-15 PD=5.32e-6 PS=5.32e-6 NRD=40e-3 NRS=40e-3 M=1 ;DTEMP=0
+mt30 ib10u onb net0110 vdda1p2 ptmp65 L=60e-9 W=2.5e-6 AD=400e-15 AS=400e-15 PD=5.32e-6 PS=5.32e-6 NRD=40e-3 NRS=40e-3 M=1 ;DTEMP=0
+mt57 vdda1p2 vbb vdda1p2 vdda1p2 ptmp65 L=5e-6 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=6 ;DTEMP=0
+mt69 cnp vbp net0117 vbb ptmp65 L=180e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt55 vbb vbb vdda1p2 vdda1p2 ptmp65 L=500e-9 W=5e-6 AD=800e-15 AS=800e-15 PD=10.32e-6 PS=10.32e-6 NRD=20e-3 NRS=20e-3 M=1 ;DTEMP=0
+mt62 net0116 vbp vdda1p2 vbb ptmp65 L=600e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt70 cnm vbp net0116 vbb ptmp65 L=180e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt50 net058 vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=8 ;DTEMP=0
+mt26 net085 vbp net058 vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=8 ;DTEMP=0
+mt41 bbi bbi net030 net030 ptmp65 L=500e-9 W=10e-6 AD=1e-12 AS=1.3e-12 PD=10.8e-6 PS=16.04e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt78<1> vdda1p2 vbp net0139<0> vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt78<2> vdda1p2 vbp net0139<1> vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt78<3> vdda1p2 vbp net0139<2> vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt78<4> vdda1p2 vbp net0139<3> vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt78<5> vdda1p2 vbp net0139<4> vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt78<6> vdda1p2 vbp net0139<5> vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt29 net029 gbi cnp bbi ptmp65 L=200e-9 W=40e-6 AD=4e-12 AS=4.6e-12 PD=41.6e-6 PS=51.84e-6 NRD=2.5e-3 NRS=2.5e-3 M=5 ;DTEMP=0
+mt28 net056 gbi cnm bbi ptmp65 L=200e-9 W=40e-6 AD=4e-12 AS=4.6e-12 PD=41.6e-6 PS=51.84e-6 NRD=2.5e-3 NRS=2.5e-3 M=5 ;DTEMP=0
+mt49 net060 vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=60 ;DTEMP=0
+mt61 net0117 vbp vdda1p2 vbb ptmp65 L=600e-9 W=10e-6 AD=1.6e-12 AS=1.6e-12 PD=20.32e-6 PS=20.32e-6 NRD=10e-3 NRS=10e-3 M=1 ;DTEMP=0
+mt22 net057 vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt46 net062 vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=41 ;DTEMP=0
+mt23 net60 vbp net061 vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=60 ;DTEMP=0
+mt14 net073 ic net085 bbi ptmp65 L=750e-9 W=50e-6 AD=5e-12 AS=5.6e-12 PD=52e-6 PS=62.24e-6 NRD=2e-3 NRS=2e-3 M=1 ;DTEMP=0
+mt13 net70 net69 net085 bbi ptmp65 L=750e-9 W=50e-6 AD=5e-12 AS=5.6e-12 PD=52e-6 PS=62.24e-6 NRD=2e-3 NRS=2e-3 M=1 ;DTEMP=0
+mt75 vdda1p2 vbp vdda1p2 vdda1p2 ptmp65 L=5e-6 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=6 ;DTEMP=0
+mt27 vbp vbp net057 vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=1 ;DTEMP=0
+mt19 net030 vbp net062 vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=41 ;DTEMP=0
+mt4 cnm im net030 bbi ptmp65 L=500e-9 W=50e-6 AD=5e-12 AS=5.6e-12 PD=52e-6 PS=62.24e-6 NRD=2e-3 NRS=2e-3 M=5 ;DTEMP=0
+mt3 cnp ip net030 bbi ptmp65 L=500e-9 W=50e-6 AD=5e-12 AS=5.6e-12 PD=52e-6 PS=62.24e-6 NRD=2e-3 NRS=2e-3 M=5 ;DTEMP=0
+mt48 net061 vbp vdda1p2 vbb ptmp65 L=600e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=60 ;DTEMP=0
+mt24 net63 vbp net060 vbb ptmp65 L=180e-9 W=20e-6 AD=2e-12 AS=3.2e-12 PD=20.4e-6 PS=40.64e-6 NRD=5e-3 NRS=5e-3 M=60 ;DTEMP=0
+r4 net036 net056 295.2
+r2 net039 net029 295.2
+r5 net69 op 3.7917e3
+r3 om net69 3.7917e3
+xi2 on onb vdda1p2 gnda inv_1x_PTM65_AllDevices
+mt66 net056 net70 net0121 gnda ptm_thinox_natfet_n65 L=500e-9 W=10e-6 AD=1e-12 AS=1.75e-12 PD=10.4e-6 PS=20.7e-6 NRD=10e-3 NRS=10e-3 M=4 ;DTEMP=0
+mt65 net0135 net0135 net0122 gnda ptm_thinox_natfet_n65 L=500e-9 W=10e-6 AD=1e-12 AS=1.75e-12 PD=10.4e-6 PS=20.7e-6 NRD=10e-3 NRS=10e-3 M=4 ;DTEMP=0
+mt67 net029 net70 net0137 gnda ptm_thinox_natfet_n65 L=500e-9 W=10e-6 AD=1e-12 AS=1.75e-12 PD=10.4e-6 PS=20.7e-6 NRD=10e-3 NRS=10e-3 M=4 ;DTEMP=0
+mt32 net073 net073 net072 gnda ptm_thinox_natfet_n65 L=500e-9 W=10e-6 AD=1e-12 AS=1.75e-12 PD=10.4e-6 PS=20.7e-6 NRD=10e-3 NRS=10e-3 M=4 ;DTEMP=0
+mt35 net056 net0135 net78 gnda ptm_thinox_natfet_n65 L=500e-9 W=10e-6 AD=1e-12 AS=1.75e-12 PD=10.4e-6 PS=20.7e-6 NRD=10e-3 NRS=10e-3 M=16 ;DTEMP=0
+mt34 net029 net0135 net81 gnda ptm_thinox_natfet_n65 L=500e-9 W=10e-6 AD=1e-12 AS=1.75e-12 PD=10.4e-6 PS=20.7e-6 NRD=10e-3 NRS=10e-3 M=16 ;DTEMP=0
+mt33 net70 net70 net088 gnda ptm_thinox_natfet_n65 L=500e-9 W=10e-6 AD=1e-12 AS=1.75e-12 PD=10.4e-6 PS=20.7e-6 NRD=10e-3 NRS=10e-3 M=4 ;DTEMP=0
+mt53 bbi bbi gbi gnda ptm_thinox_natfet_n65 L=300e-9 W=40e-6 AD=4e-12 AS=4.75e-12 PD=41.6e-6 PS=51.9e-6 NRD=2.5e-3 NRS=2.5e-3 M=1 ;DTEMP=0
+mt15 vdda1p2 net63 op gnda ptm_thinox_natfet_n65 L=300e-9 W=160e-6 AD=16e-12 AS=17.5e-12 PD=163.2e-6 PS=183.5e-6 NRD=600e-6 NRS=600e-6 M=96 ;DTEMP=0
+mt11 vdda1p2 net60 om gnda ptm_thinox_natfet_n65 L=300e-9 W=160e-6 AD=16e-12 AS=17.5e-12 PD=163.2e-6 PS=183.5e-6 NRD=600e-6 NRS=600e-6 M=96 ;DTEMP=0
+mt74 gnda onb gnda gnda ptmn65 L=60e-9 W=2e-6 AD=320e-15 AS=320e-15 PD=4.32e-6 PS=4.32e-6 NRD=50e-3 NRS=50e-3 M=1 ;DTEMP=0
+mt56 gnda onb gnda gnda ptmn65 L=60e-9 W=2e-6 AD=320e-15 AS=320e-15 PD=4.32e-6 PS=4.32e-6 NRD=50e-3 NRS=50e-3 M=1 ;DTEMP=0
+mt44 net0121 net70 gnda gnda ptmn65 L=500e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=6 ;DTEMP=0
+mt43 net0122 net0135 gnda gnda ptmn65 L=500e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=6 ;DTEMP=0
+mt45 net0137 net70 gnda gnda ptmn65 L=500e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=6 ;DTEMP=0
+mt42 net60 onb gnda gnda ptmn65 L=60e-9 W=2e-6 AD=320e-15 AS=320e-15 PD=4.32e-6 PS=4.32e-6 NRD=50e-3 NRS=50e-3 M=1 ;DTEMP=0
+mt40 net63 onb gnda gnda ptmn65 L=60e-9 W=2e-6 AD=320e-15 AS=320e-15 PD=4.32e-6 PS=4.32e-6 NRD=50e-3 NRS=50e-3 M=1 ;DTEMP=0
+mt39 net056 onb gnda gnda ptmn65 L=60e-9 W=5e-6 AD=800e-15 AS=800e-15 PD=10.32e-6 PS=10.32e-6 NRD=20e-3 NRS=20e-3 M=1 ;DTEMP=0
+mt38 net029 onb gnda gnda ptmn65 L=60e-9 W=5e-6 AD=800e-15 AS=800e-15 PD=10.32e-6 PS=10.32e-6 NRD=20e-3 NRS=20e-3 M=1 ;DTEMP=0
+mt54 gnda onb net0110 gnda ptmn65 L=60e-9 W=5e-6 AD=800e-15 AS=800e-15 PD=10.32e-6 PS=10.32e-6 NRD=20e-3 NRS=20e-3 M=1 ;DTEMP=0
+mt37 vbb net0110 gnda gnda ptmn65 L=1.25e-6 W=10e-6 AD=1.35e-12 AS=2.1e-12 PD=10.54e-6 PS=20.84e-6 NRD=13.5e-3 NRS=13.5e-3 M=1 ;DTEMP=0
+mt31 gbi net0110 gnda gnda ptmn65 L=1.25e-6 W=10e-6 AD=1.35e-12 AS=2.1e-12 PD=10.54e-6 PS=20.84e-6 NRD=13.5e-3 NRS=13.5e-3 M=2 ;DTEMP=0
+mt16 net072 net073 gnda gnda ptmn65 L=500e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=6 ;DTEMP=0
+mt17 net088 net70 gnda gnda ptmn65 L=500e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=6 ;DTEMP=0
+mt9 op net029 gnda gnda ptmn65 L=100e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=160 ;DTEMP=0
+mt6 om net056 gnda gnda ptmn65 L=100e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=160 ;DTEMP=0
+mt5 net63 net029 gnda gnda ptmn65 L=100e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=30 ;DTEMP=0
+mt12 net60 net056 gnda gnda ptmn65 L=100e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=30 ;DTEMP=0
+mt10 net81 net0135 gnda gnda ptmn65 L=500e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=24 ;DTEMP=0
+mt8 net78 net0135 gnda gnda ptmn65 L=500e-9 W=10e-6 AD=1e-12 AS=1.6e-12 PD=10.4e-6 PS=20.64e-6 NRD=10e-3 NRS=10e-3 M=24 ;DTEMP=0
+mt20 net0110 net0110 gnda gnda ptmn65 L=1.25e-6 W=10e-6 AD=1.35e-12 AS=2.1e-12 PD=10.54e-6 PS=20.84e-6 NRD=13.5e-3 NRS=13.5e-3 M=1 ;DTEMP=0
+mt21 vbp net0110 gnda gnda ptmn65 L=1.25e-6 W=10e-6 AD=1.35e-12 AS=2.1e-12 PD=10.54e-6 PS=20.84e-6 NRD=13.5e-3 NRS=13.5e-3 M=1 ;DTEMP=0
+.ends opamp5_PTM65_AllDevices
+** End of subcircuit definition.
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: bq2_7MHz_PTM65_AllDevices
+** View name: schematic
+.subckt bq2_7MHz_PTM65_AllDevices fim fip gnda ib10u ic om on op vdda1p2
+c3 net20 om 7e-12
+c2 net18 net19 8e-12
+c1 net19 net18 8e-12
+c0 net21 op 7e-12
+r5 net18 om 1.3788e3
+r4 fip net18 1.3788e3
+r3 net18 net20 1.5794e3
+r2 fim net19 1.3788e3
+r1 net19 op 1.3788e3
+r0 net19 net21 1.5794e3
+xi0 gnda ib10u ic net21 net20 om op vdda1p2 on opamp5_PTM65_AllDevices
+.ends bq2_7MHz_PTM65_AllDevices
+** End of subcircuit definition.
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: bq3_7MHz_PTM65_AllDevices
+** View name: schematic
+.subckt bq3_7MHz_PTM65_AllDevices fim fip gnda ib10u ic om on op vdda1p2
+c3 net20 om 1e-12
+c2 net18 net19 17.5e-12
+c1 net19 net18 17.5e-12
+c0 net21 op 1e-12
+r5 net18 om 1.2745e3
+r4 fip net18 1.2745e3
+r3 net18 net20 5.048e3
+r2 fim net19 1.2745e3
+r1 net19 op 1.2745e3
+r0 net19 net21 5.048e3
+xi0 gnda ib10u ic net21 net20 om op vdda1p2 on opamp5_PTM65_AllDevices
+.ends bq3_7MHz_PTM65_AllDevices
+** End of subcircuit definition.
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: bq1_7MHz_PTM65_AllDevices
+** View name: schematic
+.subckt bq1_7MHz_PTM65_AllDevices fim fip gnda ib10u ic om on op vdda1p2
+c3 net20 om 10e-12
+c2 net18 net19 9.5e-12
+c1 net19 net18 9.5e-12
+c0 net21 op 10e-12
+r5 net18 om 711.97
+r4 fip net18 711.97
+r3 net18 net20 1.8063e3
+r2 fim net19 711.97
+r1 net19 op 711.97
+r0 net19 net21 1.8063e3
+xi0 gnda ib10u ic net21 net20 om op vdda1p2 on opamp5_PTM65_AllDevices
+.ends bq1_7MHz_PTM65_AllDevices
+** End of subcircuit definition.
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: aafilter_7MHz_PTM65_AllDevices
+** View name: schematic
+.subckt aafilter_7MHz_PTM65_AllDevices fim fip fom fop gnda ib10u<1> ib10u<2> ib10u<3> ic on vdda1p2
+xi1 op1 om1 gnda ib10u<2> ic om2 on op2 vdda1p2 bq2_7MHz_PTM65_AllDevices
+xi0 fim fip gnda ib10u<3> ic om1 on op1 vdda1p2 bq3_7MHz_PTM65_AllDevices
+xi2 op2 om2 gnda ib10u<1> ic fom on fop vdda1p2 bq1_7MHz_PTM65_AllDevices
+.ends aafilter_7MHz_PTM65_AllDevices
+** End of subcircuit definition.
+
+** Library name: POSH_PTM65_Circuits_Release_Jan6_2020
+** Cell name: test_aafilter_7MHz_PTM65_AllDevices
+** View name: schematic
+xi1 ib10u<1> ib10u<2> ib10u<3> ib10u_in vdda1p2 aafilter_bias_PTM65_AllDevices
+v0 vdda1p2 0 DC 1.2
+e0 fout 0 fop fom 1
+e2 ic fim in 0 0.5
+e1 fip ic in 0 0.5
+r2 fom fop 400
+r1 ic 0 10e3
+r0 vdda1p2 ic 10e3
+i2 ib10u_in 0 DC 10e-6
+c1 fop 0 5e-12
+c0 fom 0 5e-12
+* Spectre version -- Two tone
+*V3 (in 0) vsource dc=0 mag=1 type=sine sinedc=0 ampl=250m sinephase=0 \
+*        freq=2.5M ampl2=250m sinephase2=0 freq2=3M
+v3a in  in_ SIN(0 250e-3 2.5e6)
+v3b in_ 0   SIN(0 250e-3 3.0e6)
+xi0 fim fip fom fop 0 ib10u<1> ib10u<2> ib10u<3> ic vdda1p2 vdda1p2 aafilter_7MHz_PTM65_AllDevices
+.END
