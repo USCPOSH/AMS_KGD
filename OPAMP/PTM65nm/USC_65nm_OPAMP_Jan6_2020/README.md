@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 # Xyce-compatibility
-There are 2 versions of the netlist, located in the "Xyce" folder:
+There are 2 versions of the netlist, located in the "Xyce" folder: test_opamp.cir and test_opamp_gain.cir
 ## test_opamp.cir
 This netlist can be used to compute gain from V(dolout) as a post-process in gnuplot.
 ## test_opamp_gain.cir
