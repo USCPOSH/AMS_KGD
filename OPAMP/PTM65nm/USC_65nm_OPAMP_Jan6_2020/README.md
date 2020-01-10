@@ -12,6 +12,13 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+# Xyce-compatibility
+There are 2 versions of the netlist, located in the Xyce/ folder:
+## test_opamp.cir
+This netlist can be used to compute gain from V(dolout) as a post-process in gnuplot.
+## test_opamp_gain.cir
+This netlist computes gain directly so it doesn’t need a post-process step.
+
 # Notes
 <img src="Documentation/images/PTM65_Jan6_2020_Notes.png">
 
