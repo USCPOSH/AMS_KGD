@@ -12,7 +12,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-## Xyce-compatible netlists will be located under Xyce/
+## Xyce-compatible netlist is located under the "Xyce" folder.
 
 # README
 <img src="Documentation/images/PTM65_Jan6_2020_Notes.png">
