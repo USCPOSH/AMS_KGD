@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"I18n I19n" "clk_doubler"
+"I14n I10n" "bootstrap"
+"CLKv" ":1v"
+"CLKbarv" ":2v"
+"INNv" ":3v"
+"INPv" ":4v"
+"VDDv" ":5v"
+"VOUTNv" ":6v"
+"VOUTPv" ":7v"
+"VSSv" ":8v"

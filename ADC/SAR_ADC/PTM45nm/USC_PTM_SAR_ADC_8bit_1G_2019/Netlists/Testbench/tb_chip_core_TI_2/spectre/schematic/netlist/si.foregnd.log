@@ -1,0 +1,467 @@
+si: simSetDef().... simHost is initialized to "localhost" .
+si: simSetDef().... simLoginName is initialized to "qiaochuz" .
+si: simSetDef().... simHostDiffers is initialized to "nil".
+si: simSetDef().... simInteractiveSimulatorList is initialized to ("verilog") .
+si: simSetDef().... simPostAnalysisProcessingFunc is initialized to "nil".
+si: simSetDef().... simNotifyKillActionFunc is initialized to "nil".
+si: simSetDef().... simDoNotDisplayDialogBox is initialized to "nil".
+si: simSetDef().... simNetlistFileName is initialized to "netlist" .
+si: simSetDef().... simMaxNetlistErrors is initialized to 25 .
+si: simSetDef().... simUserDefineDefaultRunDirFunc is initialized to "nil".
+si: simSetDef().... simNlpGlobalLibName is initialized to "basic" .
+si: simSetDef().... simNlpGlobalCellName is initialized to "nlpglobals" .
+si: simSetDef().... simCommand is initialized to "" .
+si: simSetDef().... simSedFile is initialized to "" .
+si: simSetDef().... simDefaultSimulator is already set to "spice". Redefinition
+to nil is ignored.
+si: simSetDef().... simDefaultRunDir is already set to "spice.run1".
+Redefinition to nil is ignored.
+si: simSetDef().... simSymbolModifiedAction is initialized to "ignore" .
+si: simSetDef().... simOtherInfo is initialized to "nil".
+si: simSetDef().... simIsFlattenP is initialized to "nil".
+si: simSetDef().... simStlInputFile is initialized to "input.stl" .
+si: simSetDef().... simDiffInputFile is initialized to "simdiff.stl" .
+si: simSetDef().... simNoSimdiff is initialized to "nil".
+si: simSetDef().... simDefaultControl is initialized to "nil".
+si: simSetDef().... simControlFile is initialized to "nil".
+si: simSetDef().... simLogFile is initialized to "si.log" .
+si: simSetDef().... simTimeUnit is initialized to 1e-09 .
+si: simSetDef().... simCapUnit is initialized to 1e-15 .
+si: simSetDef().... simDoNetlist is initialized to t .
+si: simSetDef().... simDoSimulate is initialized to t .
+si: simSetDef().... simNetlistHier is already set to t. Redefinition to nil is
+ignored.
+si: simSetDef().... simGlobalPrefix is initialized to "nil".
+si: simSetDef().... simHierarchyPrefix is initialized to "nil".
+si: simSetDef().... simNoLeadingHierarchyDelim is initialized to "nil".
+si: simSetDef().... simPrefixHierarchyWithCV is initialized to "nil".
+si: simSetDef().... simHierarchyDelimiter is initialized to "/" .
+si: simSetDef().... simNetNamePrefix is initialized to "nil".
+si: simSetDef().... simInstNamePrefix is initialized to "nil".
+si: simSetDef().... simModelNamePrefix is initialized to "nil".
+si: simSetDef().... simTermNamePrefix is initialized to "nil".
+si: simSetDef().... simCheckTermMismatchAction is initialized to "error" .
+si: simSetDef().... hnlEmptySwitchMasterAction is initialized to "ignore" .
+si: simSetDef().... simLoadNetlister is initialized to t .
+si: simSetDef().... simCleanFileList is initialized to "nil".
+si: simSetDef().... simSimulatorSaveVars is initialized to "nil".
+si: simSetDef().... simApplicationOptionsForm is initialized to "nil".
+si: simSetDef().... simSimulatorSaveFiles is initialized to "nil".
+si: simSetDef().... simDontCopyFileNetlistToRemoteRunDir is initialized to
+"nil".
+si: simSetDef().... simRsh is initialized to "nil".
+si: simSetDef().... simMustSaveFiles is initialized to (("si.env" "text")) .
+si: simSetDef().... simKnownSaveFiles is initialized to (("netlist" "netlist")
+("control" "text") ("si.out" "text") ("si.log" "text") ("map/current"
+"stranger") ("raw/waves" "stranger")) .
+si: simSetDef().... simNotIncremental is already set to t. Redefinition to nil
+is ignored.
+si: simSetDef().... simReNetlistAll is initialized to "nil".
+si: simSetDef().... simUnbindVars is initialized to (interactiveTAP
+SilosTimeScale simActions simApplicationOptionsForm simCapFileDir simCapUnit
+simCellName simCheckTermMismatchAction simCleanFileList simControlFile
+simDefaultControl simDefaultSimulator simDiffInputFile simDoNetlist
+simDoNotDisplayDialogBox simDoPostLayout simExceptionTerms simFlattenSchType
+simHierarchyPrefix simNoLeadingHierarchyDelim simPrefixHierarchyWithCV
+simGlobalPrefix simHost simHostDiffers simInitRunActions simInstNamePrefix
+simInstStopListTable simInstViewListTable simInteractiveSimulatorList
+simIsFlattenP simLibName simLoadNetlister simLoginName simModelNamePrefix
+simNetNamePrefix simNetlistFileName simNetlistHier simNlpGlobalLibName
+simNlpGlobalCellName simNlpGlobalViewName simNoSimdiff simNotIncremental
+simNowRunningRemoteSimulation simOtherInfo SIMPASSWORD
+simPostAnalysisProcessingFunc simPrintSilosCap simReNetlistAll simRetainFterms
+simStlInputFile simSimulatorSaveFiles simSimulatorSaveVars
+simSymbolModifiedAction simTermNamePrefix simTimeUnit simViewList simViewName)
+.
+si: simSetDef().... simUnbindFuncs is initialized to (STLsimin cat netlist
+runsim sim simCatErrorFile simCheckExist simCheckHeader simCheckVariables
+simCreateRemoteCommands simDateStamp simDeleteRunDirFile simDoHiloTranslation
+simDoSilosTranslation simDoTaTranslation simErrHandler simExecuteWithStatus
+simExecute simGetSiFileLocation simGetTermList simIfNoProcedure simin
+simInitControl simInitEqivRemoteSim simInitRaw simInitRunDir simInitSimulator
+simInitSpiceIncludes simIoHandler simLoadNetlisterFiles simLoadSimulatorFiles
+simNoNetlist simout simout1 simPostFunc simPrintEnvironment simPrintTermList
+simPrintTermListWithOption simRunDirInfile simRunDirLoad simRunDirOutfile
+simRunSimdiff simRunEqivRemoteSim simRunStl simSetDef simSetDefWithNoWarn
+simGetSiFileLocation) .
+si: simSetDef().... simSaveVars is already set to (simLibName simCellName
+simViewName simSimulator simNotIncremental simReNetlistAll simViewList
+simStopList simNetlistHier nlFormatterClass nlCreateAmap nlDesignVarNameList).
+Redefinition to (simLibName simCellName simViewName simSimulator
+simNotIncremental simReNetlistAll) is ignored.
+si: simSetDef().... simDoNotForkNetlist is initialized to "nil".
+si: simSetDef().... interactiveTAP is initialized to "nil".
+si: simSetDef().... simPrintSilosCap is initialized to "nil".
+si: simSetDef().... simDoPostLayout is initialized to "nil".
+si: simSetDef().... simDefaultControl is initialized to "control.spectre" .
+si: simSetDef().... spectreBinary is initialized to "spectre" .
+si: simSetDef().... simInitRunActions is initialized to (simInitControl()
+(simInitSpectreIncludes) simInitRaw()) .
+si: simSetDef().... simSimulatorUnbindFuncs is initialized to (spectre) .
+si: simSetDef().... simSimulatorUnbindVars is initialized to (simDefaultControl
+spectreBinary) .
+si: simSetDef().... simNlpGlobalViewName is initialized to "spectre" .
+si: simSetDef().... hnlDriverUnbindFuncs is initialized to
+(hnlCellInAllStopCells hnlCloseCellFiles hnlCloseMasterList hnlDoNetBased
+hnlFindAllCells hnlGenIncludeFile hnlIfNoProcedure hnlIgnoreTerm
+hnlIsAStoppingCell hnlIsCellNetlistable hnlLibName hnlGetPropVal hnlGetRoundProp
+hnlGetScaleCapacitance hnlGetScaleMarginalDelay hnlGetScaleTimeUnit
+hnlGetSymbolPropVal hnlNetNameOnTerm hnlPrintDevices hnlPrintMacroCell
+hnlPrintMessage hnlPrintNetlist hnlPrintNotNumber hnlPrintSignal hnlPrintTopCell
+hnlProcInst hnlRoundProp hnlRunNetlister hnlScaleCapacitance
+hnlScaleMarginalDelay hnlScaleTimeUnit hnlSetCellFiles hnlSetDef hnlSetDefNoWarn
+hnlSetUpCellList hnlSetVars hnlSortTermsToNets hnlStartNetlist hnlStopNetlist
+hnlStringToList hnlSubTreeInsts hnlWriteRlist _hnlEMHSetupDigitalNetlistFile
+_hnlEMHProcTopInst _hnlEMHPrintModuleHeader hnlEMHPrintInst
+_hnlEMHPrintModuleFooter _hnlEMHPrintNetlistFooter hnlEMHProcStandardCell) .
+si: simSetDef().... hnlDriverUnbindVars is initialized to (hnlAllGlobals
+hnlAllSignalInCell hnlAllTermNames hnlAllTerms hnlBusCapability hnlCapability
+hnlCellInputs hnlCellInTerms hnlCellNetsOnTerms hnlCellOtherTerms hnlCellOthers
+hnlCellOutputs hnlModCellInputs hnlModCellOutputs hnlModCellOthers
+hnlCellOutTerms hnlCellSeenList hnlCommentStr hnlCurrentCell
+hnlCurrentCellViewList hnlCurrentCellPath hnlCurrentCellConfigLibname
+hnlCurrentCellConfigCellname hnlCurrentCellConfigViewname hnlIsTopConfigCell
+hnlCurrentInputs hnlCurrentInst hnlCurrentInstName hnlCurrentInstPort
+hnlCurrentInstPortIndex hnlCurrentInstPortName hnlCurrentInTerms
+hnlCurrentInTermsSize hnlCurrentIteration hnlCurrentMaster
+hnlCurrentMasterViewList hnlCurrentOthers hnlCurrentOtherTerms
+hnlCurrentOtherTermsSize hnlCurrentOutputs hnlCurrentOutTerms
+hnlCurrentOutTermsSize hnlCurrentSignal hnlCurrentSignalName
+hnlCurrentSignalTerms hnlCurrentTermsOnInst hnlCurrentType hnlDefaultSwitchViews
+hnlDefaultStopViews hnlDefaultTarget hnlDriverWillPrint hnlDrvIlLoaded hnlError
+hnlFormatFuncsLoaded hnlFullNetlistName hnlGlobalNetPrefix hnlGlobalParamPrefix
+hnlHierarchyDelimeter hnlHierarchyDelimiter hnlIncludeFile hnlIncludeFileName
+hnlIncremental hnlIncrementalDirectory hnlIncrementalMode hnlIncrementalOnly
+simSupportNewConfig hnlInstBased hnlInstMasterPort hnlInstNameDifferentFrom
+hnlInvalidInstNames hnlInvalidModelNames hnlInvalidNames hnlInvalidNetNames
+hnlInvalidTermNames hnlInvalidParamNames hnlInvalidFunctionNames hnlLastTarget
+hnlLinePostfix hnlLinePrefix hnlListOfAllCells hnlListOfAllStopCells
+hnlListOfInstOnSignal hnlMacroCellFuncs hnlMapBusFirstChar hnlMapBusInName
+hnlMapDirName hnlMapFileName hnlMapIfFirstChar hnlMapIfInName
+hnlMapInstFirstChar hnlMapInstInName hnlMapModelFirstChar hnlMapModelInName
+hnlMapNetFirstChar hnlMapNetInName hnlMapTermFirstChar hnlMapTermInName
+hnlMaxInstNameLength hnlMaxLineLength hnlMaxModelNameLength hnlMaxNameLength
+hnlMaxNetNameLength hnlMaxTermNameLength hnlModelNameDifferentFrom
+hnlModulePrefix hnlNamePrefix hnlNetlistConfig hnlNetlistDirectory
+hnlNetlistFile hnlNetlistFileList hnlNetlistFileName hnlNetNameDifferentFrom
+hnlOverrideViewList hnlPreviousError hnlReNetlistAll hnlRlistString
+hnlslistString hnlSoftLineLength hnlStopList hnlTarget hnlTermNameDifferentFrom
+hnlParamNameDifferentFrom hnlTopCell hnlTopCellFuncs hnlViewList
+hnlInvalidLineBreakChars hnlHonorLxRemoveDevice hnlCurrentSourceFilePath
+hnlCurrentSourceFileModel hnlStoppingPropName hnlVerilogViewName
+hnlCurrentInstHdbProps hnlCurrentInstOverCellHdbProps hnlLastInvalidInstNames
+hnlLastInvalidModelNames hnlLastInvalidNames hnlLastInvalidNetNames
+hnlLastInvalidTermNames hnlLastInvalidParamNames hnlLastInvalidFunctionNames
+hnlLastMapBusFirstChar hnlLastMapBusInName hnlLastMapIfFirstChar
+hnlLastMapIfInName hnlLastMapInstFirstChar hnlLastMapInstInName
+hnlLastMapModelFirstChar hnlLastMapModelInName hnlLastMapNetFirstChar
+hnlLastMapNetInName hnlLastMapTermFirstChar hnlLastMapTermInName
+hnlLastTermNameDifferentFrom hnlLastParamNameDifferentFrom
+hnlLastMapParamFirstChar hnlLastMapParamInName hnlEMH) .
+si: simSetDef().... simTermNamePrefix is initialized to "nil".
+si: simSetDef().... simParamNamePrefix is already set to "_par". Redefinition to
+nil is ignored.
+si: simSetDef().... hnlCellOutputs is initialized to "nil".
+si: simSetDef().... hnlModCellOutputs is initialized to "nil".
+si: simSetDef().... hnlCellInputs is initialized to "nil".
+si: simSetDef().... hnlModCellInputs is initialized to "nil".
+si: simSetDef().... hnlCellOthers is initialized to "nil".
+si: simSetDef().... hnlModCellOthers is initialized to "nil".
+si: simSetDef().... hnlCellOutTerms is initialized to "nil".
+si: simSetDef().... hnlCellInTerms is initialized to "nil".
+si: simSetDef().... hnlCellOtherTerms is initialized to "nil".
+si: simSetDef().... hnlCellNetsOnTerms is initialized to "nil".
+si: simSetDef().... hnlCurrentOutputs is initialized to "nil".
+si: simSetDef().... hnlCurrentInputs is initialized to "nil".
+si: simSetDef().... hnlCurrentOthers is initialized to "nil".
+si: simSetDef().... hnlCurrentType is initialized to "nil".
+si: simSetDef().... hnlCurrentInst is initialized to "nil".
+si: simSetDef().... hnlCurrentInstName is initialized to "nil".
+si: simSetDef().... hnlCurrentMaster is initialized to "nil".
+si: simSetDef().... hnlCurrentIteration is initialized to "nil".
+si: simSetDef().... hnlCurrentCell is initialized to "nil".
+si: simSetDef().... hnlCurrentCellViewList is initialized to "nil".
+si: simSetDef().... hnlCurrentCellPath is initialized to "nil".
+si: simSetDef().... hnlCurrentCellConfigLibname is initialized to "nil".
+si: simSetDef().... hnlCurrentCellConfigCellname is initialized to "nil".
+si: simSetDef().... hnlCurrentCellConfigViewname is initialized to "nil".
+si: simSetDef().... hnlIsTopConfigCell is initialized to "nil".
+si: simSetDef().... hnlCurrentMasterViewList is initialized to "nil".
+si: simSetDef().... hnlCurrentMasterPathString is initialized to "nil".
+si: simSetDef().... hnlCurrentMasterConfigLibName is initialized to "nil".
+si: simSetDef().... hnlCurrentMasterConfigCellName is initialized to "nil".
+si: simSetDef().... hnlCurrentMasterConfigViewName is initialized to "nil".
+si: simSetDef().... hnlCurrentMasterIsTopCellConfig is initialized to "nil".
+si: simSetDef().... hnlOverrideViewList is initialized to "" .
+si: simSetDef().... hnlCurrentTermsOnInst is initialized to "nil".
+si: simSetDef().... hnlCurrentOutTerms is initialized to "nil".
+si: simSetDef().... hnlCurrentInTerms is initialized to "nil".
+si: simSetDef().... hnlCurrentOtherTerms is initialized to "nil".
+si: simSetDef().... hnlCurrentOutTermsSize is initialized to "nil".
+si: simSetDef().... hnlCurrentInTermsSize is initialized to "nil".
+si: simSetDef().... hnlCurrentOtherTermsSize is initialized to "nil".
+si: simSetDef().... hnlTopCell is initialized to "nil".
+si: simSetDef().... hnlAllGlobals is initialized to "nil".
+si: simSetDef().... hnlInvalidNames is initialized to "nil".
+si: simSetDef().... hnlInvalidNetNames is already set to (("gnd!" "0") ("0"
+"_0") "M_1_PI" "M_2_PI" "M_2_SQRTPI" "M_DEGPERRAD" "M_E" "M_LN10" "M_LN2"
+"M_LOG10E" "M_LOG2E" "M_PI" "M_PI_2" "M_PI_4" "M_SQRT1_2" "M_SQRT2" "M_TWO_PI"
+"P_C" "P_CELSIUS0" "P_EPS0" "P_H" "P_K" "P_Q" "P_U0" "abs" "acos" "acosh" "asin"
+"asinh" "atan" "atan2" "atanh" "cos" "cosh" "exp" "hypot" "log" "log10" "max"
+"min" "pow" "sin" "sinh" "sqrt" "tan" "tanh" "ceil" "floor" "fmod" "altergroup"
+"calculate" "correlate" "else" "end" "ends" "for" "global" "ic" "if" "inline"
+"local" "march" "mismatch" "model" "nodeset" "output" "parameters" "paramset"
+"plot" "print" "process" "save" "sens" "statistics" "subckt" "to" "truncate"
+"vary" "temp" "tnom" "scalem" "scale" "export" "int" "library" "function"
+"endfunction" "real" "integer" "input" "return" "FUNCTION" "montecarlo" "pwr"
+"analogmodel" "protect" "PROTECT" "prot" "PROT" "0"). Redefinition to nil is
+ignored.
+si: simSetDef().... hnlInvalidInstNames is already set to ("M_1_PI" "M_2_PI"
+"M_2_SQRTPI" "M_DEGPERRAD" "M_E" "M_LN10" "M_LN2" "M_LOG10E" "M_LOG2E" "M_PI"
+"M_PI_2" "M_PI_4" "M_SQRT1_2" "M_SQRT2" "M_TWO_PI" "P_C" "P_CELSIUS0" "P_EPS0"
+"P_H" "P_K" "P_Q" "P_U0" "abs" "acos" "acosh" "asin" "asinh" "atan" "atan2"
+"atanh" "cos" "cosh" "exp" "hypot" "log" "log10" "max" "min" "pow" "sin" "sinh"
+"sqrt" "tan" "tanh" "ceil" "floor" "fmod" "altergroup" "calculate" "correlate"
+"else" "end" "ends" "for" "global" "ic" "if" "inline" "local" "march" "mismatch"
+"model" "nodeset" "output" "parameters" "paramset" "plot" "print" "process"
+"save" "sens" "statistics" "subckt" "to" "truncate" "vary" "temp" "tnom"
+"scalem" "scale" "export" "int" "library" "function" "endfunction" "real"
+"integer" "input" "return" "FUNCTION" "montecarlo" "pwr" "analogmodel" "protect"
+"PROTECT" "prot" "PROT"). Redefinition to nil is ignored.
+si: simSetDef().... hnlInvalidModelNames is already set to ("M_1_PI" "M_2_PI"
+"M_2_SQRTPI" "M_DEGPERRAD" "M_E" "M_LN10" "M_LN2" "M_LOG10E" "M_LOG2E" "M_PI"
+"M_PI_2" "M_PI_4" "M_SQRT1_2" "M_SQRT2" "M_TWO_PI" "P_C" "P_CELSIUS0" "P_EPS0"
+"P_H" "P_K" "P_Q" "P_U0" "abs" "acos" "acosh" "asin" "asinh" "atan" "atan2"
+"atanh" "cos" "cosh" "exp" "hypot" "log" "log10" "max" "min" "pow" "sin" "sinh"
+"sqrt" "tan" "tanh" "ceil" "floor" "fmod" "altergroup" "calculate" "correlate"
+"else" "end" "ends" "for" "global" "ic" "if" "inline" "local" "march" "mismatch"
+"model" "nodeset" "output" "parameters" "paramset" "plot" "print" "process"
+"save" "sens" "statistics" "subckt" "to" "truncate" "vary" "temp" "tnom"
+"scalem" "scale" "export" "int" "library" "function" "endfunction" "real"
+"integer" "input" "return" "FUNCTION" "montecarlo" "pwr" "analogmodel" "protect"
+"PROTECT" "prot" "PROT"). Redefinition to nil is ignored.
+si: simSetDef().... hnlInvalidTermNames is initialized to "nil".
+si: simSetDef().... hnlInvalidParamNames is already set to ("altergroup"
+"calculate" "correlate" "else" "end" "ends" "for" "global" "ic" "if" "inline"
+"local" "march" "mismatch" "model" "nodeset" "output" "parameters" "paramset"
+"plot" "print" "process" "save" "sens" "statistics" "subckt" "to" "truncate"
+"vary" "temp" "tnom" "scalem" "scale" "export" "int" "library" "function"
+"endfunction" "real" "integer" "input" "return" "FUNCTION" "montecarlo" "pwr"
+"analogmodel" "protect" "PROTECT" "prot" "PROT" "abs" "acos" "acosh" "asin"
+"asinh" "atan" "atan2" "atanh" "cos" "cosh" "exp" "hypot" "log" "log10" "max"
+"min" "pow" "sin" "sinh" "sqrt" "tan" "tanh" "ceil" "floor" "fmod" "absin"
+"absolute" "absout" "all" "allglobal" "alllocal" "allpub" "autodc" "awb"
+"backward" "bert" "bilinear" "both" "breakdown" "brief" "brk" "bsim" "bulk"
+"cdsspice" "child" "continue" "correlations" "conservative" "dc" "debug" "delta"
+"detailed" "dev" "diff" "dptran" "eng" "error" "euler" "exp" "fatal" "file"
+"finish" "float" "forward" "full" "fwd" "gear2" "gear2only" "gmin" "gnd"
+"hspice" "in" "indifferent" "input" "insist" "inst" "inversez" "isdb" "lateral"
+"liberal" "list" "log" "logfile" "lvl" "lvlpub" "max_only" "max_v_only" "meyer"
+"min" "mismatch" "models" "moderate" "n" "no" "node" "nodes"
+"nodes_and_terminals" "none" "nonlinear" "normal" "nowhere" "npn" "npnv"
+"nutascii" "nutbin" "off" "on" "only" "oppoint" "out" "output" "overlap"
+"override" "p" "parent" "pnp" "pnpl" "pnpv" "pointlocal" "poly" "process"
+"psfascii" "psfbin" "ptran" "pulse" "pwl" "quit" "rampup" "rawfile" "relative"
+"rev" "sat" "sci" "screen" "selected" "sigglobal" "sine" "source" "sources"
+"spectre" "spice" "spice2" "spice3" "spiceplus" "status" "std" "steps" "subth"
+"subthresh" "suggest" "sum" "sweep" "tabular" "tc" "terminals" "timedomain"
+"title" "trap" "trapgear2" "traponly" "triode" "turbo" "vertical" "vt" "warning"
+"waveless" "wsfascii" "wsfbin" "yang" "yes" "z"). Redefinition to nil is
+ignored.
+si: simSetDef().... hnlInvalidFunctionNames is initialized to "nil".
+si: simSetDef().... hnlInvalidLineBreakChars is already set to ("*" "+").
+Redefinition to nil is ignored.
+si: simSetDef().... hnlMapIfFirstChar is initialized to "nil".
+si: simSetDef().... hnlMapIfInName is initialized to "nil".
+si: simSetDef().... hnlMapNetFirstChar is already set to (("." "_") ("0" "_0")
+("1" "_1") ("2" "_2") ("3" "_3") ("4" "_4") ("5" "_5") ("6" "_6") ("7" "_7")
+("8" "_8") ("9" "_9") ("!" "\\!") ("@" "\\@") ("#" "\\#") ("$" "\\$") ("%"
+"\\%") ("^" "\\^") ("&" "\\&") ("*" "\\*") ("(" "\\(") (")" "\\)") ("\\" "\\\\")
+("|" "\\|") ("+" "\\+") ("-" "\\-") ("=" "\\=") ("{" "\\{") ("}" "\\}") ("["
+"\\[") ("]" "\\]") ("\"" "\\\"") ("'" "\\'") (":" "\\:") (";" "\\;") ("~" "\\~")
+("`" "\\`") ("<" "\\<") ("," "\\,") (">" "\\>") ("?" "\\?") ("/" "\\/")).
+Redefinition to nil is ignored.
+si: simSetDef().... hnlMapNetInName is already set to ((">" "") ("<" "_") ("."
+"_") ("#" "\\#") ("$" "\\$") ("%" "\\%") ("^" "\\^") ("&" "\\&") ("*" "\\*")
+("(" "\\(") (")" "\\)") ("\\" "\\\\") ("|" "\\|") ("+" "\\+") ("-" "\\-") ("="
+"\\=") ("{" "\\{") ("}" "\\}") ("[" "\\[") ("]" "\\]") ("\"" "\\\"") ("'" "\\'")
+(":" "\\:") (";" "\\;") ("~" "\\~") ("`" "\\`") ("," "\\,") ("?" "\\?") ("/"
+"\\/") ("@" "\\@")). Redefinition to nil is ignored.
+si: simSetDef().... hnlMapInstFirstChar is already set to (("." "_") ("0" "_0")
+("1" "_1") ("2" "_2") ("3" "_3") ("4" "_4") ("5" "_5") ("6" "_6") ("7" "_7")
+("8" "_8") ("9" "_9") ("!" "\\!") ("@" "\\@") ("#" "\\#") ("$" "\\$") ("%"
+"\\%") ("^" "\\^") ("&" "\\&") ("*" "\\*") ("(" "\\(") (")" "\\)") ("\\" "\\\\")
+("|" "\\|") ("+" "\\+") ("-" "\\-") ("=" "\\=") ("{" "\\{") ("}" "\\}") ("["
+"\\[") ("]" "\\]") ("\"" "\\\"") ("'" "\\'") (":" "\\:") (";" "\\;") ("~" "\\~")
+("`" "\\`") ("<" "\\<") ("," "\\,") (">" "\\>") ("?" "\\?") ("/" "\\/")).
+Redefinition to nil is ignored.
+si: simSetDef().... hnlMapInstInName is already set to ((">" "") ("<" "_") ("."
+"_") ("#" "\\#") ("$" "\\$") ("%" "\\%") ("^" "\\^") ("&" "\\&") ("*" "\\*")
+("(" "\\(") (")" "\\)") ("\\" "\\\\") ("|" "\\|") ("+" "\\+") ("-" "\\-") ("="
+"\\=") ("{" "\\{") ("}" "\\}") ("[" "\\[") ("]" "\\]") ("\"" "\\\"") ("'" "\\'")
+(":" "\\:") (";" "\\;") ("~" "\\~") ("`" "\\`") ("," "\\,") ("?" "\\?") ("/"
+"\\/") ("@" "\\@")). Redefinition to nil is ignored.
+si: simSetDef().... hnlMapModelFirstChar is already set to ("." "0" "1" "2" "3"
+"4" "5" "6" "7" "8" "9" "!" "@" "#" "$" "%" "^" "&" "*" "(" ")" "\\" "|" "+" "-"
+"=" "{" "}" "[" "]" "\"" "'" ":" ";" "~" "`" "<" "," ">" "?" "/"). Redefinition
+to nil is ignored.
+si: simSetDef().... hnlMapModelInName is already set to ((">" "") ("<" "_") "."
+"#" "$" "%" "^" "&" "*" "(" ")" "\\" "|" "+" "-" "=" "{" "}" "[" "]" "\"" "'"
+":" ";" "~" "`" "," "?" "/" "@"). Redefinition to nil is ignored.
+si: simSetDef().... hnlMapTermInName is initialized to "nil".
+si: simSetDef().... hnlMapTermFirstChar is initialized to "nil".
+si: simSetDef().... hnlMapParamInName is initialized to "nil".
+si: simSetDef().... hnlMapParamFirstChar is initialized to "nil".
+si: simSetDef().... hnlMapBusInName is initialized to "nil".
+si: simSetDef().... hnlMapBusFirstChar is initialized to "nil".
+si: simSetDef().... hnlViewList is initialized to "nil".
+si: simSetDef().... hnlStopList is initialized to "nil".
+si: simSetDef().... hnlError is initialized to "nil".
+si: simSetDef().... hnlPreviousError is initialized to "nil".
+si: simSetDef().... hnlListOfAllStopCells is initialized to "nil".
+si: simSetDef().... hnlListOfAllCells is initialized to "nil".
+si: simSetDef().... hnlNetlistFile is initialized to "nil".
+si: simSetDef().... hnlNetlistFileName is initialized to "netlist" .
+si: simSetDef().... hnlMapDirName is initialized to "map" .
+si: simSetDef().... hnlMapFileName is initialized to "current" .
+si: simSetDef().... hnlNamePrefix is initialized to "hnl_" .
+si: simSetDef().... hnlBusNamePrefix is initialized to "BUS" .
+si: simSetDef().... hnlDriverWillPrint is initialized to "nil".
+si: simSetDef().... hnlLinePrefix is already set to "        ". Redefinition to
+nil is ignored.
+si: simSetDef().... hnlLinePostfix is already set to " \\". Redefinition to nil
+is ignored.
+si: simSetDef().... hnlCommentStr is already set to "//". Redefinition to nil is
+ignored.
+si: simSetDef().... hnlSoftLineLength is already set to 75. Redefinition to nil
+is ignored.
+si: simSetDef().... hnlFormatFuncsLoaded is initialized to "nil".
+si: simSetDef().... hnlDrvIlLoaded is initialized to "nil".
+si: simSetDef().... hnlInstBased is initialized to t .
+si: simSetDef().... hnlLastTarget is initialized to "nil".
+si: simSetDef().... hnlFullNetlistName is initialized to "netlist" .
+si: simSetDef().... hnlNetlistDirectory is initialized to "nil".
+si: simSetDef().... hnlFullMasterName is initialized to "nil".
+si: simSetDef().... hnlIncremental is initialized to "nil".
+si: simSetDef().... hnlIncrementalOnly is initialized to "nil".
+si: simSetDef().... simSupportNewConfig is already set to t. Redefinition to nil
+is ignored.
+si: simSetDef().... hnlIncrementalMode is initialized to "nil".
+si: simSetDef().... hnlReNetlistAll is initialized to "nil".
+si: simSetDef().... hnlModulePrefix is already set to "_sub". Redefinition to
+nil is ignored.
+si: simSetDef().... hnlGlobalNetPrefix is already set to "_gnet". Redefinition
+to nil is ignored.
+si: simSetDef().... hnlGlobalParamPrefix is already set to "_gpar". Redefinition
+to nil is ignored.
+si: simSetDef().... hnlIncludeFileName is initialized to "netlist" .
+si: simSetDef().... hnlIncludeFile is initialized to "nil".
+si: simSetDef().... hnlNetlistFileList is initialized to "nil".
+si: simSetDef().... hnlIncrementalDirectory is initialized to "ihnl" .
+si: simSetDef().... hnlCurrentInstPortName is initialized to "nil".
+si: simSetDef().... hnlCurrentInstPortIndex is initialized to 0 .
+si: simSetDef().... hnlCurrentInstPort is initialized to "nil".
+si: simSetDef().... hnlInstMasterPort is initialized to "nil".
+si: simSetDef().... hnlAllTerms is initialized to "nil".
+si: simSetDef().... hnlAllTermNames is initialized to "nil".
+si: simSetDef().... hnlAllSignalInCell is initialized to "nil".
+si: simSetDef().... hnlCurrentSignal is initialized to "nil".
+si: simSetDef().... hnlCurrentSignalName is initialized to "nil".
+si: simSetDef().... hnlSignalTerms is initialized to "nil".
+si: simSetDef().... hnlListOffInstOnSignal is initialized to "nil".
+si: simSetDef().... hnlNetBased is initialized to "nil".
+si: simSetDef().... hnlRlistString is initialized to "nil".
+si: simSetDef().... hnlNetlistConfig is initialized to "nil".
+si: simSetDef().... hnlTopCellFuncs is initialized to ("hnlSetCellFiles()"
+"hnlPrintTopCellHeader()" "hnlPrintDevices()" "hnlPrintTopCellFooter()"
+"hnlCloseCellFiles()") .
+si: simSetDef().... hnlMacroCellFuncs is initialized to ("hnlSetCellFiles()"
+"hnlPrintDeviceHeader()" "hnlPrintPorts()" "hnlPrintDevices()"
+"hnlPrintDeviceFooter()" "hnlCloseCellFiles()") .
+si: simSetDef().... hnlTopCellNetFuncs is initialized to
+("hnlPrintTopCellHeader()" "hnlPrintSignal()" "hnlPrintTopCellFooter()") .
+si: simSetDef().... hnlMacroCellNetFuncs is initialized to
+("hnlPrintDeviceHeader()" "hnlPrintPorts()" "hnlPrintSignal()"
+"hnlPrintDeviceFooter()") .
+si: simSetDef().... hnlFormatterUnbindFuncs is initialized to
+(hnlPrintNetlistHeader hnlPrintNetlistFooter hnlSetOutputVars
+hnlPrintTopCellHeader hnlPrintTopCellFooter hnlPrintPorts hnlPrintDeviceHeader
+hnlPrintDeviceFooter hnlPrintInst) .
+Loading the file
+'/home/Cadence/IC617/tools.lnx86/dfII/etc/skill/hnl/spectre.ile'.Loading the file
+'/home/Cadence/IC617/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting Jun  9 01:08:17 2021
+ERROR (OSSHNL-366): Netlisting failed because the instance 'I3' in cellview
+'POSH_TI_SAR_zqc_20190501/chip_core_all/schematic' is bound to
+an invalid placed
+master 'basic_mcgroup/Asize_mcgroup/symbol'. Ensure that the specified placed
+master
+exists and is included in the list of reference libraries in the cds.lib
+file,
+and netlist again.
+
+WARNING (OSSHNL-196): The value of the "nlAction" property of library
+'basic_mcgroup', cell 'Asize_mcgroup', view 'symbol'
+has changed since the last
+netlisting session in current run directory. Some
+cell views need to be
+re-netlisted.
+
+End netlisting Jun  9 01:08:17 2021
+Begin Incremental Netlisting Jun  9 01:08:27 2021
+ERROR (OSSHNL-366): Netlisting failed because the instance 'I3' in cellview
+'POSH_TI_SAR_zqc_20190501/chip_core_all/schematic' is bound to
+an invalid placed
+master 'basic_mcgroup/Asize_mcgroup/symbol'. Ensure that the specified placed
+master
+exists and is included in the list of reference libraries in the cds.lib
+file,
+and netlist again.
+
+WARNING (OSSHNL-196): The value of the "nlAction" property of library
+'basic_mcgroup', cell 'Asize_mcgroup', view 'symbol'
+has changed since the last
+netlisting session in current run directory. Some
+cell views need to be
+re-netlisted.
+
+End netlisting Jun  9 01:08:27 2021
+Begin Incremental Netlisting Jun  9 01:09:32 2021
+ERROR (OSSHNL-366): Netlisting failed because the instance 'I3' in cellview
+'POSH_TI_SAR_zqc_20190501/chip_core_all/schematic' is bound to
+an invalid placed
+master 'basic_mcgroup/Asize_mcgroup/symbol'. Ensure that the specified placed
+master
+exists and is included in the list of reference libraries in the cds.lib
+file,
+and netlist again.
+
+WARNING (OSSHNL-196): The value of the "nlAction" property of library
+'basic_mcgroup', cell 'Asize_mcgroup', view 'symbol'
+has changed since the last
+netlisting session in current run directory. Some
+cell views need to be
+re-netlisted.
+
+End netlisting Jun  9 01:09:32 2021
+Begin Incremental Netlisting Jun  9 01:09:34 2021
+ERROR (OSSHNL-366): Netlisting failed because the instance 'I3' in cellview
+'POSH_TI_SAR_zqc_20190501/chip_core_all/schematic' is bound to
+an invalid placed
+master 'basic_mcgroup/Asize_mcgroup/symbol'. Ensure that the specified placed
+master
+exists and is included in the list of reference libraries in the cds.lib
+file,
+and netlist again.
+
+WARNING (OSSHNL-196): The value of the "nlAction" property of library
+'basic_mcgroup', cell 'Asize_mcgroup', view 'symbol'
+has changed since the last
+netlisting session in current run directory. Some
+cell views need to be
+re-netlisted.
+
+End netlisting Jun  9 01:09:34 2021
+Begin Incremental Netlisting Jun  9 01:09:45 2021
+End netlisting Jun  9 01:09:45 2021
+Begin Incremental Netlisting Jun  9 01:10:51 2021
+End netlisting Jun  9 01:10:51 2021

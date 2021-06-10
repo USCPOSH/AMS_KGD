@@ -1,0 +1,6 @@
+    I18 (VDD CLK net6 VSS) clk_doubler
+    I19 (VDD CLK net5 VSS) clk_doubler
+    I14 (VOUTP VDD VSS CLK CLKbar net6 INP) bootstrap
+    I10 (VOUTN VDD VSS CLK CLKbar net5 INN) bootstrap
+ends bootstrap_diff
+// End of subcircuit definition.

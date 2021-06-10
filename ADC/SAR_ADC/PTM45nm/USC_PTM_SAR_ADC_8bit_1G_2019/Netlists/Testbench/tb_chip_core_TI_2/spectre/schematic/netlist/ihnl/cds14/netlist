@@ -1,0 +1,13 @@
+    M10 (net01 clk IN VSS) nmos w=900n l=45n m=20
+    M11 (net012 clk IN VSS) nmos w=900.0n l=45n m=40
+    M6 (VSS clkb net011 VSS) nmos w=900.0n l=45n m=1
+    M4 (OUT net011 IN VSS) nmos w=900.0n l=45n m=10
+    M1q (net01 clkb VSS VSS) nmos w=900.0n l=45n m=50
+    M0 (VDD clkb_high net8 VSS) nmos w=900.0n l=45n m=1
+    C0 (net8 net01) capacitor c=20p ic=1.1
+    M12 (IN clkb net01 VDD) pmos w=900n l=45n m=20
+    M7 (IN clkb net012 VDD) pmos w=900.0n l=45n m=40
+    M13 (net012 clk VDD VDD) pmos w=900.0n l=45n m=20
+    M2 (net011 net012 net8 net8) pmos w=900n l=45n m=1
+ends bootstrap
+// End of subcircuit definition.

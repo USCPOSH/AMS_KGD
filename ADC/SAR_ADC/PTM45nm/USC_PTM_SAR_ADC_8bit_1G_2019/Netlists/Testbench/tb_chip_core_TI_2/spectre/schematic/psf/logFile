@@ -1,0 +1,56 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Wed Jun  9 04:39:06 2021"
+"psfversion" ""
+"simulator" "spectre"
+"version" "19.1.0.606.isr16"
+"date" "4:39:06 AM, Wed Jun 9, 2021"
+"design" "// Generated for: spectre"
+"signalNameType" "spectre"
+"simMode" "APS"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"dcOp-dc" "analysisInst" (
+"dc"
+"dcOp.dc"
+"PSF"
+""
+()
+"DC Analysis `dcOp'"
+) PROP(
+"data_type" "scalar"
+)
+
+"dcOpInfo-info" "analysisInst" (
+"info"
+"dcOpInfo.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"tran-tran" "analysisInst" (
+"tran"
+"tran.tran.trn"
+"SST2"
+""
+("time")
+"Transient Analysis `tran': time = (0 s -> 3 us)"
+) PROP(
+"data_type" "swept_scalar"
+)

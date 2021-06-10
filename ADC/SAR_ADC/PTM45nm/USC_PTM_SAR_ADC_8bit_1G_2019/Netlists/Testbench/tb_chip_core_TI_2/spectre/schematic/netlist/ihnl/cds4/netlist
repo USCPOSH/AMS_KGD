@@ -1,0 +1,14 @@
+    M10 (VOUTN net16 VSS VSS) nmos w=900n l=45n m=10
+    M3 (net16 net9 VSS VSS) nmos w=900n l=45n m=10
+    M5 (net16 CLKC VSS VSS) nmos w=900n l=45n m=5
+    M4 (net9 CLKC VSS VSS) nmos w=900n l=45n m=5
+    M7 (VOUTP net9 VSS VSS) nmos w=900n l=45n m=10
+    M6 (net9 net16 VSS VSS) nmos w=900n l=45n m=10
+    M9 (VOUTN net16 VDD VDD) pmos w=900n l=45n m=35
+    M0 (net12 CLKC VDD VDD) pmos w=900n l=45n m=70
+    M2 (net16 VINN net12 VDD) pmos w=900n l=45n m=20
+    M1 (net9 VINP net12 VDD) pmos w=900n l=45n m=20
+    M8 (VOUTP net9 VDD VDD) pmos w=900n l=45n m=35
+    I1 (VOUTP VOUTN VDD VSS RDY) NAND2
+ends comparator_p
+// End of subcircuit definition.

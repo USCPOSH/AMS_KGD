@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"\" \"netlist\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Jun  9 04:39:04 2021"
+"title" ""
+"analysisList" "()"
+END

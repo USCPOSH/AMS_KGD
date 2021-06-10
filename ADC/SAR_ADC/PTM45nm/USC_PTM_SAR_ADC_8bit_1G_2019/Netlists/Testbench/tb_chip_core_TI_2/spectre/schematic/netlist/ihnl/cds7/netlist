@@ -1,0 +1,5 @@
+    I6 (CLK net013 Q Qbar VDD VSS) Latch
+    I5 (net012 D net013 net014 VDD VSS) Latch
+    I7 (VDD CLK net012 VSS) inverter
+ends DFF
+// End of subcircuit definition.

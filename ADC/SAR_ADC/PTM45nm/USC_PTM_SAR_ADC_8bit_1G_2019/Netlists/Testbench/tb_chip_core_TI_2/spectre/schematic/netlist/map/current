@@ -1,0 +1,62 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "tb_chip_core_TI_2"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/qiaochuz/simulation/tb_chip_core_TI_2/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "POSH_TI_SAR_zqc_20190501/SH/schematic" "SH" )
+( "POSH_TI_SAR_zqc_20190501/buffer/schematic" "buffer" )
+( "POSH_TI_SAR_zqc_20190501/clk_gen_TI/schematic" "clk_gen_TI" )
+( "POSH_TI_SAR_zqc_20190501/chip_core/schematic" "chip_core" )
+( "POSH_TI_SAR_zqc_20190501/DAC_ctrl_logic/schematic" "DAC_ctrl_logic" )
+( "POSH_TI_SAR_zqc_20190501/SAR_logic/schematic" "SAR_logic" )
+( "POSH_TI_SAR_zqc_20190501/NOR3/schematic" "NOR3" )
+( "POSH_TI_SAR_zqc_20190501/DFF/schematic" "DFF" )
+( "POSH_TI_SAR_zqc_20190501/inverter/schematic" "inverter" )
+( "POSH_TI_SAR_zqc_20190501/bootstrap_diff/schematic" "bootstrap_diff" )
+( "POSH_TI_SAR_zqc_20190501/Latch/schematic" "Latch" )
+( "POSH_TI_SAR_zqc_20190501/DFF_set/schematic" "DFF_set" )
+( "POSH_TI_SAR_zqc_20190501/clk_doubler/schematic" "clk_doubler" )
+( "POSH_TI_SAR_zqc_20190501/comparator_p/schematic" "comparator_p" )
+( "POSH_TI_SAR_zqc_20190501/tb_chip_core_TI_2/schematic" "tb_chip_core_TI_2" )
+( "POSH_TI_SAR_zqc_20190501/transmission_gate/schematic" "transmission_gate" )
+( "POSH_TI_SAR_zqc_20190501/NAND2/schematic" "NAND2" )
+( "POSH_TI_SAR_zqc_20190501/bootstrap/schematic" "bootstrap" )
+( "POSH_TI_SAR_zqc_20190501/chip_core_all/schematic" "chip_core_all" )
+( "POSH_TI_SAR_zqc_20190501/CDAC/schematic" "CDAC" )
+( "POSH_TI_SAR_zqc_20190501/buffer_delay/schematic" "buffer_delay" )
+( "POSH_TI_SAR_zqc_20190501/DFF_reset/schematic" "DFF_reset" )
+( "POSH_TI_SAR_zqc_20190501/async_logic/schematic" "async_logic" )
+ )
+( "DFF_set" "ihnl/cds20/map" )
+( "NOR3" "ihnl/cds9/map" )
+( "transmission_gate" "ihnl/cds3/map" )
+( "DAC_ctrl_logic" "ihnl/cds8/map" )
+( "buffer" "ihnl/cds5/map" )
+( "tb_chip_core_TI_2" "ihnl/cds22/map" )
+( "DFF" "ihnl/cds7/map" )
+( "bootstrap" "ihnl/cds14/map" )
+( "DFF_reset" "ihnl/cds2/map" )
+( "inverter" "ihnl/cds0/map" )
+( "CDAC" "ihnl/cds12/map" )
+( "comparator_p" "ihnl/cds4/map" )
+( "buffer_delay" "ihnl/cds19/map" )
+( "clk_gen_TI" "ihnl/cds21/map" )
+( "SH" "ihnl/cds16/map" )
+( "async_logic" "ihnl/cds10/map" )
+( "clk_doubler" "ihnl/cds13/map" )
+( "NAND2" "ihnl/cds1/map" )
+( "chip_core" "ihnl/cds17/map" )
+( "SAR_logic" "ihnl/cds11/map" )
+( "bootstrap_diff" "ihnl/cds15/map" )
+( "chip_core_all" "ihnl/cds18/map" )
+( "Latch" "ihnl/cds6/map" )
+ )

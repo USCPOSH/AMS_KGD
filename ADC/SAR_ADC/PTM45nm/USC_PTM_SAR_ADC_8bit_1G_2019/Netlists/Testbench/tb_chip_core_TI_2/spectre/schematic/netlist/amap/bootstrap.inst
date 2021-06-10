@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"M10n M11n M6n M4n M1qn M0n" "analogLib_nmos4_spectre"
+"C0n" "analogLib_cap_spectre"
+"M12n M7n M13n M2n" "analogLib_pmos4_spectre"
+"OUTv" ":1v"
+"VDDv" ":2v"
+"VSSv" ":3v"
+"clkv" ":4v"
+"clkbv" ":5v"
+"clkb_highv" ":6v"
+"INv" ":7v"

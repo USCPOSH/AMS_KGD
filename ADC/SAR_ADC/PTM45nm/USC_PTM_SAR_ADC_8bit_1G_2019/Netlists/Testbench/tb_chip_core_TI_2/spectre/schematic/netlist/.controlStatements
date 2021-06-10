@@ -1,0 +1,27 @@
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf colonasdelimiter=none 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+tran tran stop=3u errpreset=moderate trannoisemethod=default \
+    noisefmax=100G noisefmin=1k noiseseed=1 write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save V8:p VDD CLKS\<0\> CLKS\<1\> CLKS\<2\> CLKS\<3\> OUTCODE3\<0\> \
+    OUTCODE3\<1\> OUTCODE3\<2\> OUTCODE3\<3\> OUTCODE3\<4\> OUTCODE3\<5\> \
+    OUTCODE3\<6\> OUTCODE3\<7\> OUTCODE2\<0\> OUTCODE2\<1\> OUTCODE2\<2\> \
+    OUTCODE2\<3\> OUTCODE2\<4\> OUTCODE2\<5\> OUTCODE2\<6\> OUTCODE2\<7\> \
+    OUTCODE1\<0\> OUTCODE1\<1\> OUTCODE1\<2\> OUTCODE1\<3\> OUTCODE1\<4\> \
+    OUTCODE1\<5\> OUTCODE1\<6\> OUTCODE1\<7\> OUTCODE0\<0\> OUTCODE0\<1\> \
+    OUTCODE0\<2\> OUTCODE0\<3\> OUTCODE0\<4\> OUTCODE0\<5\> OUTCODE0\<6\> \
+    OUTCODE0\<7\> OUTVOLT OUTCODE\<0\> OUTCODE\<1\> OUTCODE\<2\> \
+    OUTCODE\<3\> OUTCODE\<4\> OUTCODE\<5\> OUTCODE\<6\> OUTCODE\<7\> \
+    CLK_IN INP 
+saveOptions options save=selected

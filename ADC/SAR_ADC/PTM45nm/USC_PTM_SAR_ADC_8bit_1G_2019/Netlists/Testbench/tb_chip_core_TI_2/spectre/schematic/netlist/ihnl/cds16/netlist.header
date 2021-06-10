@@ -1,0 +1,8 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: SH
+// View name: schematic
+subckt SH CLK CLKbar INN INP OUTN OUTP V2DAC_N\<0\> V2DAC_N\<1\> \
+        V2DAC_N\<2\> V2DAC_N\<3\> V2DAC_N\<4\> V2DAC_N\<5\> V2DAC_N\<6\> \
+        V2DAC_N\<7\> V2DAC_P\<0\> V2DAC_P\<1\> V2DAC_P\<2\> V2DAC_P\<3\> \
+        V2DAC_P\<4\> V2DAC_P\<5\> V2DAC_P\<6\> V2DAC_P\<7\> VDD VSS

@@ -1,0 +1,5 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: bootstrap_diff
+// View name: schematic
+subckt bootstrap_diff CLK CLKbar INN INP VDD VOUTN VOUTP VSS

@@ -1,0 +1,89 @@
+ahdlcmicompile: Compiling ahdlcmi in input.ahdlSimDB//7464294753eefc090527535c5bbcc2a1.dac_8bit_ideal.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Tue Jun  8 18:29:31 UTC 2021 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /home/Cadence/SPECTRE191/bin:/home/Cadence/SPECTRE191/tools.lnx86/bin/64bit:/home/Cadence/SPECTRE191/tools.lnx86/bin:/home/Cadence/IC617/bin:/home/Cadence/IC617/tools/bin:/home/Cadence/IC617/tools.lnx86/bin/64bit:/home/Cadence/IC617/tools.lnx86/bin:/home/Cadence/IC617/share/oa/bin:/home/Cadence/SPB166/tools/fet/bin:/home/Cadence/SPB166/tools/pcb/bin:/home/Cadence/SPB166/tools/mainwin540/mw/bin-i86_linux:/home/Cadence/SPB166/tools/mainwin540/mw/bin-linux_optimized:/home/Cadence/SPB166/tools/mainwin540/mw/bin:/home/Cadence/SPB166/tools/jre/bin:/home/Cadence/IC617/tools.lnx86/dfII/bin:/home/qiaochuz/anaconda3/bin/:/usr/synopsys/installer:/home/Synopsys/dc/bin:/home/Synopsys/fm/bin:/home/Synopsys/pt/bin:/home/Synopsys/starrc/bin:/Cadence/INNOVUS161/tools.lnx86/bin:/home/Cadence/INCISIVE152/tools/bin:/home/Cadence/EDI142/tools.lnx86/bin:/home/Cadence/EXT152/tools.lnx86/bin:/home/Cadence/SPB166/tools.lnx86/bin:/home/Cadence/CONFRML152/tools.lnx86/bin:/ADS/ADS2016/bin:/home/Mentor_Graphics/aoi_cal_2016.2_26.21/bin:/home/Mentor_Graphics/xACT/xactPack-2015.3_UR1/sierra/bin:/usr/local/MATLAB/R2019a/bin:/Ansys/AnsysEM170/AnsysEM17.0/Linux64:/Ansys/AnsysEM170/LayoutIntegrations17.0/Linux64:/usr/local/bin:/usr/local/netscape:/usr/sbin:/usr/bin:/usr/lib:/bin:/sbin:/etc:/opt/lumerical/fdtd/bin:/lib:.
+LD_LIBRARY_PATH:  /home/Cadence/SPECTRE191/tools.lnx86/giganta/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/mdl/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/mmsim/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/tcltk-8.4.20/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/inca/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/spectre/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/dfII/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/fmc/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/lib/64bit:/home/Cadence/SPECTRE191/tools.lnx86/lib:/home/Cadence/IC617/tools/lib:/home/Cadence/IC617/share/oa/lib/linux_rhel50_gcc48x_64/opt:/home/Cadence/IC617/tools.lnx86/Qt/64bit/lib:/home/Cadence/IC617/tools.lnx86/dfII/lib/64bit:/home/Cadence/IC617/tools.lnx86/sev/lib/64bit:/home/Cadence/IC617/tools.lnx86/lib/64bit:/home/Cadence/IC617/tools.lnx86/lib:/home/Cadence/IC617/tools.lnx86/hdf5/lib/64bit:/home/Cadence/INCISIVE152/tools.lnx86/lib/64bit:/home/Cadence/SPB166/tools/jre/lib/i386/server:/home/Cadence/SPB166/tools/jre/lib/i386:/home/Cadence/SPB166/tools/mainwin540/mw/../misc/linux/gcc/fixed3/lib:/home/Cadence/SPB166/tools/fet/bin:/home/Cadence/SPB166/tools/mainwin540/mw/lib-linux_optimized:/usr/dt/lib:/usr/openwin/lib:/home/Cadence/SPB166/tools/lib:/home/Cadence/SPB166/tools/dfII/lib:/home/Cadence/SPB166/tools/jre/lib:/home/Cadence/SPB166/tools/jre/lib/i386/client:/home/Cadence/SPB166/tools/jre/lib/i386/native_threads:/home/Cadence/SPB166/tools/jre/lib/i386:/home/qiaochuz/glibc-2.17/glibc-install/lib:/home/Cadence/INCISIVE152/tools/lib/:/home/Cadence/IC617/tools/dfII/lib
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j120 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file dac_8bit_ideal_func.c (optimize)
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include -c dac_8bit_ideal_func.c -o obj/optimize/5.0/dac_8bit_ideal_func.o || rm -f -f obj/optimize/5.0/dac_8bit_ideal_func.o
+Compiling C file dac_8bit_ideal_DcFuncDerLoad.c (optimize)
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include -c dac_8bit_ideal_DcFuncDerLoad.c -o obj/optimize/5.0/dac_8bit_ideal_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/dac_8bit_ideal_DcFuncDerLoad.o
+Compiling C file dac_8bit_ideal_DcFuncLoad.c (optimize)
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include -c dac_8bit_ideal_DcFuncLoad.c -o obj/optimize/5.0/dac_8bit_ideal_DcFuncLoad.o || rm -f -f obj/optimize/5.0/dac_8bit_ideal_DcFuncLoad.o
+Compiling C file dac_8bit_ideal_TranFuncDerLoad.c (optimize)
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include -c dac_8bit_ideal_TranFuncDerLoad.c -o obj/optimize/5.0/dac_8bit_ideal_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/dac_8bit_ideal_TranFuncDerLoad.o
+Compiling C file dac_8bit_ideal_TranFuncLoad.c (optimize)
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include -c dac_8bit_ideal_TranFuncLoad.c -o obj/optimize/5.0/dac_8bit_ideal_TranFuncLoad.o || rm -f -f obj/optimize/5.0/dac_8bit_ideal_TranFuncLoad.o
+Compiling C file dac_8bit_ideal_OpPointCalc.c (optimize)
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include -c dac_8bit_ideal_OpPointCalc.c -o obj/optimize/5.0/dac_8bit_ideal_OpPointCalc.o || rm -f -f obj/optimize/5.0/dac_8bit_ideal_OpPointCalc.o
+Compiling C file dac_8bit_ideal_cmi_c.c (optimize)
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc  -march=k8 -ffast-math  -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include -I/home/Cadence/SPECTRE191/tools.lnx86/cmi/include -c dac_8bit_ideal_cmi_c.c -o obj/optimize/5.0/dac_8bit_ideal_cmi_c.o || rm -f -f obj/optimize/5.0/dac_8bit_ideal_cmi_c.o
+<stdin>: In function 'dac_8bit_ideal_pPrintDescription':
+<stdin>:615:3: warning: implicit declaration of function 'msgWrite' [-Wimplicit-function-declaration]
+<stdin>:617:67: warning: implicit declaration of function 'devGetRFinFreqDomain' [-Wimplicit-function-declaration]
+<stdin>: In function 'dac_8bit_ideal_pGetInstanceParams':
+<stdin>:846:41: warning: implicit declaration of function 'devGetInstKnotStatus' [-Wimplicit-function-declaration]
+<stdin>: In function 'dac_8bit_ideal_pDC_Load':
+<stdin>:1130:33: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2759:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'dac_8bit_ideal_pCompare':
+<stdin>:1751:3: warning: implicit declaration of function 'spReplaceMatrixPointer' [-Wimplicit-function-declaration]
+<stdin>:1755:36: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>:1756:12: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:44:14: note: expected 'void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest,
+              ^~~~~~
+<stdin>:1756:46: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [-Wint-conversion]
+In file included from /home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:83,
+                 from <stdin>:24:
+/usr/include/string.h:44:14: note: expected 'const void * restrict' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest,
+              ^~~~~~
+<stdin>:1758:36: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'dac_8bit_ideal_pMapSignals':
+<stdin>:1818:26: warning: comparison between pointer and integer
+<stdin>: In function 'dac_8bit_ideal_pGetMatrixPointers':
+<stdin>:1938:33: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+<stdin>: In function 'dac_8bit_ideal_pAnalTranLoad':
+<stdin>:2771:34: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [-Wint-conversion]
+In file included from <stdin>:24:0:
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2759:33: note: expected 'void *' but argument is of type 'long int'
+ ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<stdin>: In function 'dac_8bit_ideal_pSaveRestart':
+<stdin>:3040:4: warning: implicit declaration of function 'pklAccessDouble' [-Wimplicit-function-declaration]
+<stdin>:3041:29: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1262:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'dac_8bit_ideal_pSaveRestartInst':
+<stdin>:3115:27: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [-Wincompatible-pointer-types]
+In file included from <stdin>:24:0:
+/home/Cadence/SPECTRE191/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1262:39: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+ ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                       ^~~~~~~~~~~~
+<stdin>: In function 'ahdldac_8bit_idealDescInstall':
+<stdin>:3254:2: warning: implicit declaration of function 'descSetDeviceType' [-Wimplicit-function-declaration]
+<stdin>:3256:2: warning: implicit declaration of function 'descSetSetContrInfoPtr' [-Wimplicit-function-declaration]
+<stdin>:3264:2: warning: implicit declaration of function 'descSetCopySignals' [-Wimplicit-function-declaration]
+<stdin>:3293:2: warning: implicit declaration of function 'descSetPrintDescription' [-Wimplicit-function-declaration]
+<stdin>:3295:2: warning: implicit declaration of function 'descSetGetNodeNamesForBranch' [-Wimplicit-function-declaration]
+<stdin>:3296:2: warning: implicit declaration of function 'descSetGetLinearityFactor' [-Wimplicit-function-declaration]
+rm -f -rf dac_8bit_ideal_OpPointCalc.c
+rm -f -rf dac_8bit_ideal_DcFuncDerLoad.c
+rm -f -rf dac_8bit_ideal_TranFuncDerLoad.c
+rm -f -rf dac_8bit_ideal_TranFuncLoad.c
+rm -f -rf dac_8bit_ideal_DcFuncLoad.c
+rm -f -rf dac_8bit_ideal_func.c
+rm -f -rf dac_8bit_ideal_cmi_c.c
+/home/Cadence/SPECTRE191/tools.lnx86/cdsgcc/gcc/6.3/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_dac_8bit_ideal.so ./obj/optimize/5.0/dac_8bit_ideal_func.o ./obj/optimize/5.0/dac_8bit_ideal_DcFuncDerLoad.o ./obj/optimize/5.0/dac_8bit_ideal_DcFuncLoad.o ./obj/optimize/5.0/dac_8bit_ideal_TranFuncDerLoad.o ./obj/optimize/5.0/dac_8bit_ideal_TranFuncLoad.o ./obj/optimize/5.0/dac_8bit_ideal_OpPointCalc.o ./obj/optimize/5.0/dac_8bit_ideal_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 
+rm -f -f ./obj/optimize/5.0/dac_8bit_ideal_func.o ./obj/optimize/5.0/dac_8bit_ideal_DcFuncDerLoad.o ./obj/optimize/5.0/dac_8bit_ideal_DcFuncLoad.o ./obj/optimize/5.0/dac_8bit_ideal_TranFuncDerLoad.o ./obj/optimize/5.0/dac_8bit_ideal_TranFuncLoad.o ./obj/optimize/5.0/dac_8bit_ideal_OpPointCalc.o ./obj/optimize/5.0/dac_8bit_ideal_cmi_c.o 

@@ -1,0 +1,38 @@
+simulator( 'spectre )
+design(	 "./netlist")
+resultsDir( "../." )
+modelFile( 
+    '("./Techfile_45nm.scs" "")
+)
+analysis('dc ?saveOppoint t  )
+analysis('tran ?stop "3u"  ?errpreset "moderate"  ?tranNoise "Transient Noise"  
+		?noisefmax "100G"  ?noisefmin "1k"  ?noiseseed "1"  ?noisescale ""  
+		?noisetmin ""  ?noiseupdate ""  ?noiseonoff ""  ?noiseinst ""  )
+desVar(	  "fin" 946.5332031M	)
+desVar(	  "fs" 1G	)
+envOption(
+	'enableNoiseRefactor  nil 
+	'analysisOrder  list("dc" "tran") 
+)
+option( ?categ 'turboOpts
+	'apsplus  t 
+	'uniMode  "APS" 
+)
+saveOption( ?simOutputFormat "sst2" )
+saveOption( 'save "selected" )
+save( 'v "/INP" "/CLK_IN" "/OUTCODE<0:7>" "/OUTVOLT" "/OUTCODE0<0:7>" "/OUTCODE1<0:7>" "/OUTCODE2<0:7>" "/OUTCODE3<0:7>" "/CLKS<0:3>" "/VDD" )
+save( 'i "/V8/PLUS" )
+temp( 27 ) 
+run()
+selectResult( 'tran )
+power = (- average((IT("/V8/PLUS") * VT("/VDD"))))
+ocnPrint( ?output "./sim_results/power", power )
+spectrum_enob = spectrumMeasurement(v("/OUTVOLT" ?result "tran") t 8.5e-09 2.057e-06 2048 244100 4.999e+08 5 "Hanning" 0 0 1 "enob")
+ocnPrint( ?output "./sim_results/spectrum_enob", spectrum_enob )
+spectrum_sfdr = spectrumMeasurement(v("/OUTVOLT" ?result "tran") t 8.5e-09 2.057e-06 2048 244100 4.999e+08 5 "Hanning" 0 0 1 "sfdr")
+ocnPrint( ?output "./sim_results/spectrum_sfdr", spectrum_sfdr )
+spectrum = db20(dft(v("/OUTVOLT" ?result "tran") 8.5e-09 2.057e-06 2048 "Hanning" 0 0 1))
+plot( spectrum ?expr '( "spectrum" ) )
+FoM = (power / 1000000000 / (2**spectrum_enob))
+ocnPrint( ?output "./sim_results/FoM", FoM )
+exit

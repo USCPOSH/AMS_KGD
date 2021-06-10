@@ -1,0 +1,7 @@
+    I2 (V2DAC_N\<0\> V2DAC_N\<1\> V2DAC_N\<2\> V2DAC_N\<3\> V2DAC_N\<4\> \
+        V2DAC_N\<5\> V2DAC_N\<6\> V2DAC_N\<7\> OUTN VSS) CDAC
+    I1 (V2DAC_P\<0\> V2DAC_P\<1\> V2DAC_P\<2\> V2DAC_P\<3\> V2DAC_P\<4\> \
+        V2DAC_P\<5\> V2DAC_P\<6\> V2DAC_P\<7\> OUTP VSS) CDAC
+    I0 (CLK CLKbar INN INP VDD OUTN OUTP VSS) bootstrap_diff
+ends SH
+// End of subcircuit definition.

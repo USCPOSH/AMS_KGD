@@ -1,0 +1,6 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: clk_gen_TI
+// View name: schematic
+subckt clk_gen_TI CLK CLK_DIV\<0\> CLK_DIV\<1\> CLK_DIV\<2\> CLK_DIV\<3\> \
+        INITIALIZE VDD VSS

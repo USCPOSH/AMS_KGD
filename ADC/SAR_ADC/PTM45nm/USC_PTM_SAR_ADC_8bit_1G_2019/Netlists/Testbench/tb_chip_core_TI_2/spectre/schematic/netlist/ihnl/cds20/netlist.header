@@ -1,0 +1,5 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: DFF_set
+// View name: schematic
+subckt DFF_set CLK D Q Qbar VDD VSS S

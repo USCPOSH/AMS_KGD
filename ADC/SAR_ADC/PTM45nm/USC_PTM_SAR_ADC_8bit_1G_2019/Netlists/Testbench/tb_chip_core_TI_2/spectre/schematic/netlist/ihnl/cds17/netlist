@@ -1,0 +1,16 @@
+    I1 (CLKC RDY VDD VSH_N VSH_P VCMP_N VCMP_P VSS) comparator_p
+    I2 (B\<0\> B\<1\> B\<2\> B\<3\> B\<4\> B\<5\> B\<6\> B\<7\> Bbar\<0\> \
+        Bbar\<1\> Bbar\<2\> Bbar\<3\> Bbar\<4\> Bbar\<5\> Bbar\<6\> \
+        Bbar\<7\> CLKC CLKS VCMP_N VCMP_P RDY V2DAC_N\<0\> V2DAC_N\<1\> \
+        V2DAC_N\<2\> V2DAC_N\<3\> V2DAC_N\<4\> V2DAC_N\<5\> V2DAC_N\<6\> \
+        V2DAC_N\<7\> V2DAC_P\<0\> V2DAC_P\<1\> V2DAC_P\<2\> V2DAC_P\<3\> \
+        V2DAC_P\<4\> V2DAC_P\<5\> V2DAC_P\<6\> V2DAC_P\<7\> VDD VREF VSS \
+        CLK\<0\> CLK\<1\> CLK\<2\> CLK\<3\> CLK\<4\> CLK\<5\> CLK\<6\> \
+        CLK\<7\>) SAR_logic
+    I6 (VDD CLKS CLKSbar VSS) inverter
+    I0 (CLKS CLKSbar VIN_N VIN_P VSH_N VSH_P V2DAC_N\<0\> V2DAC_N\<1\> \
+        V2DAC_N\<2\> V2DAC_N\<3\> V2DAC_N\<4\> V2DAC_N\<5\> V2DAC_N\<6\> \
+        V2DAC_N\<7\> V2DAC_P\<0\> V2DAC_P\<1\> V2DAC_P\<2\> V2DAC_P\<3\> \
+        V2DAC_P\<4\> V2DAC_P\<5\> V2DAC_P\<6\> V2DAC_P\<7\> VDD VSS) SH
+ends chip_core
+// End of subcircuit definition.

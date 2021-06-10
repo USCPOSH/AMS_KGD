@@ -1,0 +1,13 @@
+HEADER
+"PSFversion" "1.00"
+"C10n C7n C6n C5n C4n C3n C2n C1n C0n" "analogLib_cap_spectre"
+"S<0>v" ":1v"
+"S<1>v" ":2v"
+"S<2>v" ":3v"
+"S<3>v" ":4v"
+"S<4>v" ":5v"
+"S<5>v" ":6v"
+"S<6>v" ":7v"
+"S<7>v" ":8v"
+"TOPv" ":9v"
+"groundv" ":10v"

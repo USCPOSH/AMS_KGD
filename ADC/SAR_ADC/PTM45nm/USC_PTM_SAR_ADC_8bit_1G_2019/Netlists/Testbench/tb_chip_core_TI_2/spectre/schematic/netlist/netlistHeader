@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Jun  8 18:29:30 2021
+// Design library name: POSH_TI_SAR_zqc_20190501
+// Design cell name: tb_chip_core_TI_2
+// Design view name: schematic
+simulator lang=spectre
+global 0

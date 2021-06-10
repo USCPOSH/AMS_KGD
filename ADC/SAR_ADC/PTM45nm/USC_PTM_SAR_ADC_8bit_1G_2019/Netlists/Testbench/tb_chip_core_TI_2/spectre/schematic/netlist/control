@@ -1,0 +1,12 @@
+// Default Spectre Simulation run title card.
+
+
+[?netlistHeader]
+[?variables]
+[?spectre.include]
+[n?netlist]
+[?spectre.inp]
+[?spectre.sim]
+[n?netlistFooter]
+
+// End of Netlist

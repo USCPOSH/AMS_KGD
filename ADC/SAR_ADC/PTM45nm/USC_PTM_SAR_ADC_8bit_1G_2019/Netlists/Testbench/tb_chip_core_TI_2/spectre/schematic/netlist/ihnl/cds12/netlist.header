@@ -1,0 +1,6 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: CDAC
+// View name: schematic
+subckt CDAC S\<0\> S\<1\> S\<2\> S\<3\> S\<4\> S\<5\> S\<6\> S\<7\> TOP \
+        ground

@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"I122<0>n I122<1>n I122<2>n I122<3>n I122<4>n I122<5>n I122<6>n I122<7>n" "DFF_reset"
+"V17n V8n V9n V0n" "analogLib_vdc_spectre"
+"V3n V2n" "analogLib_vsin_spectre"
+"V7n V6n V1n" "analogLib_vpulse_spectre"
+"I116<0>n I116<1>n I116<2>n I116<3>n I116<4>n I116<5>n I116<6>n I116<7>n I119<0>n I119<1>n I119<2>n I119<3>n I119<4>n I119<5>n I119<6>n I119<7>n I118<0>n I118<1>n I118<2>n I118<3>n I118<4>n I118<5>n I118<6>n I118<7>n I117<0>n I117<1>n I117<2>n I117<3>n I117<4>n I117<5>n I117<6>n I117<7>n" "transmission_gate"
+"I95n I72n I49n I0n" "chip_core_all"
+"I34n" "clk_gen_TI"
+"I32n" "ahdlLib_dac_8bit_ideal_veriloga"
+"I120<0>n I120<1>n I120<2>n I120<3>n" "inverter"

@@ -1,0 +1,6 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: async_logic
+// View name: schematic
+subckt async_logic CLK\<0\> CLK\<1\> CLK\<2\> CLK\<3\> CLK\<4\> CLK\<5\> \
+        CLK\<6\> CLK\<7\> CLKC CLKS RDY VDD VSS

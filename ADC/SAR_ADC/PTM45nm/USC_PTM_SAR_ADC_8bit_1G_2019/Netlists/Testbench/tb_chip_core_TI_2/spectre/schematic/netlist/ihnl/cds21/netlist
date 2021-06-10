@@ -1,0 +1,22 @@
+    I5 (CLK CLK_DIV_inter\<2\> CLK_DIV_inter\<3\> net3 VDD VSS INITIALIZE) \
+        DFF_reset
+    I4 (CLK CLK_DIV_inter\<1\> CLK_DIV_inter\<2\> net4 VDD VSS INITIALIZE) \
+        DFF_reset
+    I3 (CLK CLK_DIV_inter\<0\> CLK_DIV_inter\<1\> net5 VDD VSS INITIALIZE) \
+        DFF_reset
+    I13\<0\> (VDD net010\<0\> CLK_DIV\<0\> VSS) inverter
+    I13\<1\> (VDD net010\<1\> CLK_DIV\<1\> VSS) inverter
+    I13\<2\> (VDD net010\<2\> CLK_DIV\<2\> VSS) inverter
+    I13\<3\> (VDD net010\<3\> CLK_DIV\<3\> VSS) inverter
+    I11\<0\> (VDD CLK_DIV_inter\<0\> net012\<0\> VSS) buffer_delay
+    I11\<1\> (VDD CLK_DIV_inter\<1\> net012\<1\> VSS) buffer_delay
+    I11\<2\> (VDD CLK_DIV_inter\<2\> net012\<2\> VSS) buffer_delay
+    I11\<3\> (VDD CLK_DIV_inter\<3\> net012\<3\> VSS) buffer_delay
+    I2 (CLK CLK_DIV_inter\<3\> CLK_DIV_inter\<0\> net6 VDD VSS INITIALIZE) \
+        DFF_set
+    I10\<0\> (CLK_DIV_inter\<0\> net012\<0\> VDD VSS net010\<0\>) NAND2
+    I10\<1\> (CLK_DIV_inter\<1\> net012\<1\> VDD VSS net010\<1\>) NAND2
+    I10\<2\> (CLK_DIV_inter\<2\> net012\<2\> VDD VSS net010\<2\>) NAND2
+    I10\<3\> (CLK_DIV_inter\<3\> net012\<3\> VDD VSS net010\<3\>) NAND2
+ends clk_gen_TI
+// End of subcircuit definition.

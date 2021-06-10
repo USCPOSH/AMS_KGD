@@ -1,0 +1,13 @@
+    I10 (VDD net015 net026 VSS) inverter
+    I7 (VDD R net019 VSS) inverter
+    I13 (VDD CLK net013 VSS) inverter
+    I12 (net015 net014 VDD VSS net011) NAND2
+    I11 (net014 net026 VDD VSS net010) NAND2
+    I9 (net019 net023 VDD VSS net015) NAND2
+    I8 (net022 net010 VDD VSS net023) NAND2
+    I5 (net011 D VDD VSS net022) NAND2
+    I3 (Qbar net010 VDD VSS Q) NAND2
+    I2 (net011 Q VDD VSS Qbar) NAND2
+    I6 (net019 net013 VDD VSS net014) NAND2
+ends DFF_reset
+// End of subcircuit definition.

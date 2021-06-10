@@ -1,0 +1,8 @@
+    M4 (D C VSS VSS) nmos w=900n l=45n m=10
+    M0 (D B VSS VSS) nmos w=900n l=45n m=10
+    M1 (D A VSS VSS) nmos w=900n l=45n m=10
+    M5 (D C net23 VDD) pmos w=900n l=45n m=105
+    M3 (net23 B net24 VDD) pmos w=900n l=45n m=105
+    M2 (net24 A VDD VDD) pmos w=900n l=45n m=105
+ends NOR3
+// End of subcircuit definition.

@@ -1,0 +1,8 @@
+    I2 (B net7 VDD VSS net015) NAND2
+    I5 (VDD net015 net9 VSS) inverter
+    I4 (VDD CLK net7 VSS) buffer
+    M0 (V2DAC net9 VSS VSS) nmos w=900.0n l=45n m=10
+    I0 (CLK OUT B net11 VDD VSS) DFF
+    M1 (V2DAC net9 VREF VREF) pmos w=900n l=45n m=35
+ends DAC_ctrl_logic
+// End of subcircuit definition.

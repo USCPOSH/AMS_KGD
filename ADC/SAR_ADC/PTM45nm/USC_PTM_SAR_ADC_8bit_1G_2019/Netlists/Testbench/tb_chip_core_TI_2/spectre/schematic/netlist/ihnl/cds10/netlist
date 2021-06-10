@@ -1,0 +1,13 @@
+    I19 (CLKS RDY CLK\<7\> net01 VDD VSS) NOR3
+    I20 (VDD net01 net016 VSS) inverter
+    I21 (VDD net016 CLKC VSS) buffer
+    I9 (RDY CLK\<6\> CLK\<7\> net5 VDD VSS CLKS) DFF_reset
+    I8 (RDY CLK\<5\> CLK\<6\> net12 VDD VSS CLKS) DFF_reset
+    I7 (RDY CLK\<4\> CLK\<5\> net19 VDD VSS CLKS) DFF_reset
+    I6 (RDY CLK\<3\> CLK\<4\> net26 VDD VSS CLKS) DFF_reset
+    I5 (RDY CLK\<2\> CLK\<3\> net33 VDD VSS CLKS) DFF_reset
+    I4 (RDY CLK\<1\> CLK\<2\> net40 VDD VSS CLKS) DFF_reset
+    I2 (RDY VDD CLK\<0\> net52 VDD VSS CLKS) DFF_reset
+    I3 (RDY CLK\<0\> CLK\<1\> net47 VDD VSS CLKS) DFF_reset
+ends async_logic
+// End of subcircuit definition.

@@ -1,0 +1,4 @@
+    M0 (VOUT VIN VSS VSS) nmos w=900n l=45n m=10
+    M1 (VOUT VIN VDD VDD) pmos w=900n l=45n m=35
+ends inverter
+// End of subcircuit definition.

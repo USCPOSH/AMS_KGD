@@ -1,0 +1,5 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: bootstrap
+// View name: schematic
+subckt bootstrap OUT VDD VSS clk clkb clkb_high IN

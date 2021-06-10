@@ -1,0 +1,7 @@
+    I4 (VDD D net13 VSS) inverter
+    I3 (Q net010 VDD VSS Qbar) NAND2
+    I2 (net011 Qbar VDD VSS Q) NAND2
+    I1 (CLK net13 VDD VSS net010) NAND2
+    I0 (D CLK VDD VSS net011) NAND2
+ends Latch
+// End of subcircuit definition.

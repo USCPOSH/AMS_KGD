@@ -1,0 +1,7 @@
+    C1 (VOUT net5) capacitor c=2.5p m=3 ic=0
+    C0 (VOUTb VIN) capacitor c=2.5p m=3 ic=0
+    M0 (VDD VOUTb VOUT VSS) nmos w=600.0n l=45n m=10
+    M18 (VDD VOUT VOUTb VSS) nmos w=600.0n l=45n m=10
+    I0 (VDD VIN net5 VSS) inverter
+ends clk_doubler
+// End of subcircuit definition.

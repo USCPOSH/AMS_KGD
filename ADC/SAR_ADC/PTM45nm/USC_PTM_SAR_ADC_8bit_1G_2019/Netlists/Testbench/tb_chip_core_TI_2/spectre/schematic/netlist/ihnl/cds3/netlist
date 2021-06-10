@@ -1,0 +1,4 @@
+    M6 (A CLK B VSS) nmos w=90n l=45n m=2
+    M7 (B CLKbar A VDD) pmos w=90n l=45n m=7
+ends transmission_gate
+// End of subcircuit definition.

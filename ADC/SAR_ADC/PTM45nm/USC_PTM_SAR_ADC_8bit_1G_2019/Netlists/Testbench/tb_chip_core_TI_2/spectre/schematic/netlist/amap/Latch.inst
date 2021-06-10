@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"I4n" "inverter"
+"I3n I2n I1n I0n" "NAND2"
+"CLKv" ":1v"
+"Dv" ":2v"
+"Qv" ":3v"
+"Qbarv" ":4v"
+"VDDv" ":5v"
+"VSSv" ":6v"

@@ -1,0 +1,25 @@
+CADENCE IHNL111423
+
+POSH_TI_SAR_zqc_20190501 inverter schematic cds0
+POSH_TI_SAR_zqc_20190501 NAND2 schematic cds1
+POSH_TI_SAR_zqc_20190501 DFF_reset schematic cds2
+POSH_TI_SAR_zqc_20190501 transmission_gate schematic cds3
+POSH_TI_SAR_zqc_20190501 comparator_p schematic cds4
+POSH_TI_SAR_zqc_20190501 buffer schematic cds5
+POSH_TI_SAR_zqc_20190501 Latch schematic cds6
+POSH_TI_SAR_zqc_20190501 DFF schematic cds7
+POSH_TI_SAR_zqc_20190501 DAC_ctrl_logic schematic cds8
+POSH_TI_SAR_zqc_20190501 NOR3 schematic cds9
+POSH_TI_SAR_zqc_20190501 async_logic schematic cds10
+POSH_TI_SAR_zqc_20190501 SAR_logic schematic cds11
+POSH_TI_SAR_zqc_20190501 CDAC schematic cds12
+POSH_TI_SAR_zqc_20190501 clk_doubler schematic cds13
+POSH_TI_SAR_zqc_20190501 bootstrap schematic cds14
+POSH_TI_SAR_zqc_20190501 bootstrap_diff schematic cds15
+POSH_TI_SAR_zqc_20190501 SH schematic cds16
+POSH_TI_SAR_zqc_20190501 chip_core schematic cds17
+POSH_TI_SAR_zqc_20190501 chip_core_all schematic cds18
+POSH_TI_SAR_zqc_20190501 buffer_delay schematic cds19
+POSH_TI_SAR_zqc_20190501 DFF_set schematic cds20
+POSH_TI_SAR_zqc_20190501 clk_gen_TI schematic cds21
+POSH_TI_SAR_zqc_20190501 tb_chip_core_TI_2 schematic cds22

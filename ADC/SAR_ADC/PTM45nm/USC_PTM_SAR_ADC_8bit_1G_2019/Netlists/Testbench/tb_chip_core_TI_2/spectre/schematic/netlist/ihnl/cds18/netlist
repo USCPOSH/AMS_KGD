@@ -1,0 +1,26 @@
+    I34\<0\> (CLKS B\<0\> OUTCODE\<0\> net22\<0\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I34\<1\> (CLKS B\<1\> OUTCODE\<1\> net22\<1\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I34\<2\> (CLKS B\<2\> OUTCODE\<2\> net22\<2\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I34\<3\> (CLKS B\<3\> OUTCODE\<3\> net22\<3\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I34\<4\> (CLKS B\<4\> OUTCODE\<4\> net22\<4\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I34\<5\> (CLKS B\<5\> OUTCODE\<5\> net22\<5\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I34\<6\> (CLKS B\<6\> OUTCODE\<6\> net22\<6\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I34\<7\> (CLKS B\<7\> OUTCODE\<7\> net22\<7\> VDD VSS RESET_OUTCODE) \
+        DFF_reset
+    I0 (B\<0\> B\<1\> B\<2\> B\<3\> B\<4\> B\<5\> B\<6\> B\<7\> Bbar\<0\> \
+        Bbar\<1\> Bbar\<2\> Bbar\<3\> Bbar\<4\> Bbar\<5\> Bbar\<6\> \
+        Bbar\<7\> CLKC CLKS RDY V2DAC_N\<0\> V2DAC_N\<1\> V2DAC_N\<2\> \
+        V2DAC_N\<3\> V2DAC_N\<4\> V2DAC_N\<5\> V2DAC_N\<6\> V2DAC_N\<7\> \
+        V2DAC_P\<0\> V2DAC_P\<1\> V2DAC_P\<2\> V2DAC_P\<3\> V2DAC_P\<4\> \
+        V2DAC_P\<5\> V2DAC_P\<6\> V2DAC_P\<7\> VCMP_N VCMP_P VDD VIN_N \
+        VIN_P VREF VSH_N VSH_P VSS CLK\<0\> CLK\<1\> CLK\<2\> CLK\<3\> \
+        CLK\<4\> CLK\<5\> CLK\<6\> CLK\<7\>) chip_core
+ends chip_core_all
+// End of subcircuit definition.

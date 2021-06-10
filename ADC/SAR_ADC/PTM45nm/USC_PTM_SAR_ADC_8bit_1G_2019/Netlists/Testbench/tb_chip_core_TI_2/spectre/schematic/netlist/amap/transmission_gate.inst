@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"M6n" "analogLib_nmos4_spectre"
+"M7n" "analogLib_pmos4_spectre"
+"Av" ":1v"
+"Bv" ":2v"
+"CLKv" ":3v"
+"CLKbarv" ":4v"
+"VDDv" ":5v"
+"VSSv" ":6v"

@@ -1,0 +1,3 @@
+simulator lang=spectre
+include "nmos.scs"
+include "pmos.scs"

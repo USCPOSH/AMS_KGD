@@ -1,0 +1,6 @@
+    M1 (net7 B VSS VSS) nmos w=900n l=45n m=20
+    M0 (D A net7 VSS) nmos w=900n l=45n m=20
+    M3 (D B VDD VDD) pmos w=900n l=45n m=35
+    M2 (D A VDD VDD) pmos w=900n l=45n m=35
+ends NAND2
+// End of subcircuit definition.

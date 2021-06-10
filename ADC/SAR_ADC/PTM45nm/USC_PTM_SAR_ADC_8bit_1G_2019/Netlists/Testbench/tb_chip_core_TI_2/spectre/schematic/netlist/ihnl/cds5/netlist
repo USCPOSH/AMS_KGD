@@ -1,0 +1,6 @@
+    M2 (VOUT net40 VSS VSS) nmos w=900.0n l=45n m=10
+    M0 (net40 VIN VSS VSS) nmos w=900.0n l=45n m=10
+    M3 (VOUT net40 VDD VDD) pmos w=900n l=45n m=35
+    M1 (net40 VIN VDD VDD) pmos w=900n l=45n m=35
+ends buffer
+// End of subcircuit definition.

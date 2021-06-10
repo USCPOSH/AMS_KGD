@@ -1,0 +1,5 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: buffer_delay
+// View name: schematic
+subckt buffer_delay VDD VIN VOUT VSS

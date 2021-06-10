@@ -1,0 +1,11 @@
+    C10 (TOP ground) capacitor c=3.90625f
+    C7 (TOP S\<7\>) capacitor c=3.90625f
+    C6 (TOP S\<6\>) capacitor c=7.8125f
+    C5 (TOP S\<5\>) capacitor c=15.625f
+    C4 (TOP S\<4\>) capacitor c=31.25f
+    C3 (TOP S\<3\>) capacitor c=62.5f
+    C2 (TOP S\<2\>) capacitor c=125f
+    C1 (TOP S\<1\>) capacitor c=250f
+    C0 (TOP S\<0\>) capacitor c=500.0f
+ends CDAC
+// End of subcircuit definition.

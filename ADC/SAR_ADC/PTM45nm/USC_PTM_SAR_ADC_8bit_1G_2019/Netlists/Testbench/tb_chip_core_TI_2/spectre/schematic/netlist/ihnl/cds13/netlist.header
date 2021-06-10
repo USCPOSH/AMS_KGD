@@ -1,0 +1,5 @@
+
+// Library name: POSH_TI_SAR_zqc_20190501
+// Cell name: clk_doubler
+// View name: schematic
+subckt clk_doubler VDD VIN VOUT VSS
